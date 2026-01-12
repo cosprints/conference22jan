@@ -13,7 +13,7 @@ function Header() {
 
   const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [calendlyUrl, setCalendlyUrl] = useState('https://www.linkedin.com/events/7414274913672482816/');
+  const [calendlyUrl, setCalendlyUrl] = useState('https://calendly.com/maxpog/ai/');
 
   useEffect(() => {
     const getPartnerParam = () => {
@@ -34,10 +34,18 @@ function Header() {
     const partnerParam = getPartnerParam();
 
     const updateCalendlyUrl = () => {
-      setCalendlyUrl('https://www.linkedin.com/events/7414274913672482816/');
+      const baseUrl = window.innerWidth > 650
+        ? 'https://calendly.com/maxpog/ai/2026-01-22T16:00:00+00:00?month=2026-01&date=2026-01-22'
+        : 'https://calendly.com/maxpog/ai/';
+
+      const urlWithUtm = partnerParam ? `${baseUrl}${baseUrl.includes('?') ? '&' : '?'}utm_source=${partnerParam}` : baseUrl;
+      setCalendlyUrl(urlWithUtm);
     };
 
     updateCalendlyUrl();
+    window.addEventListener('resize', updateCalendlyUrl);
+
+    return () => window.removeEventListener('resize', updateCalendlyUrl);
   }, []);
 
   const scrollToSection = (sectionId: string) => {
