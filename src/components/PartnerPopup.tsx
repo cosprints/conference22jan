@@ -36,7 +36,6 @@ export function PartnerPopup({ partner, onClose }: PartnerPopupProps) {
         </button>
 
         <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full overflow-hidden">
-          {/* Content */}
           <div className="p-8 text-center space-y-6">
             {/* Title */}
             <h2 className="text-2xl font-bold text-gray-900">
@@ -46,10 +45,10 @@ export function PartnerPopup({ partner, onClose }: PartnerPopupProps) {
             {/* Main CTA */}
             <div className="space-y-2">
               <p className="text-gray-700 font-semibold text-lg">
-                Register Now (Free)
+                Your Bonus is Ready!
               </p>
               <p className="text-gray-600 text-sm">
-                + Get 50 AI Tools Library
+                Perplexity Mastery Guide
               </p>
             </div>
 
@@ -67,8 +66,8 @@ export function PartnerPopup({ partner, onClose }: PartnerPopupProps) {
 
             {/* Footer */}
             <div className="space-y-1 text-xs text-gray-500">
-              <p>✓ Free Bonus Included</p>
-              <p>Library of 50 AI Tools</p>
+              <p>✓ Free conference access</p>
+              <p>✓ Instant bonus delivery</p>
             </div>
           </div>
         </div>
