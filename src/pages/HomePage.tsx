@@ -802,7 +802,7 @@ function HomePage() {
             <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="relative h-64 w-full bg-gradient-to-br from-emerald-400 to-green-600">
                 <img
-                  src="/huryn copy.jpg"
+                  src="/huryn_copy.jpg"
                   alt="Pawel Huryn"
                   className="w-full h-full object-cover"
                   loading="lazy" onError={handleImageError} />
@@ -992,7 +992,7 @@ function HomePage() {
                     <div className="flex items-center gap-2">
                       <img src="/co-hosts_max_pog.jpg" alt="Max Pog" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
                       <span className="text-gray-900">Max Pog, Co-Host</span>
-                      <img src="/csprints_inverted copy.png" alt="Community Sprints" className="h-5" onError={handleImageError} />
+                      <img src="/csprints_inverted_copy.png" alt="Community Sprints" className="h-5" onError={handleImageError} />
                     </div>
                     <div className="flex items-center gap-2">
                       <img src="/co-hosts_veremeyenko.jpg" alt="Alex Veremeyenko" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
@@ -1000,7 +1000,7 @@ function HomePage() {
                       <img src="/veremeyenko_company_logo.png" alt="God of Prompt" className="h-5" onError={handleImageError} />
                     </div>
                     <div className="flex items-center gap-2">
-                      <img src="/huryn copy.jpg" alt="Pawel Huryn" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
+                      <img src="/huryn_copy.jpg" alt="Pawel Huryn" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
                       <span className="text-gray-900">Pawel Huryn, CEO</span>
                       <img src="/product-compass.png" alt="The Product Compass" className="h-5" onError={handleImageError} />
                     </div>
@@ -1508,7 +1508,7 @@ function HomePage() {
                 </p>
                 <div className="flex flex-col items-center mt-2">
                   <img
-                    src="/huryn copy.jpg"
+                    src="/huryn_copy.jpg"
                     alt="Pawel Huryn"
                     className="w-12 h-12 rounded-full object-cover mb-1" onError={handleImageError} />
                   <span className="text-xs text-gray-700 font-medium">Pawel Huryn</span>
