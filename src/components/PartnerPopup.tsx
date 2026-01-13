@@ -2,14 +2,14 @@ import React, { useEffect, useMemo, useState } from "react";
 import { X } from "lucide-react";
 
 interface PartnerPopupProps {
-  // Still supported as a fallback, but primary source is URL param "Partner"
+  // optional fallback (if you already pass it from elsewhere)
   partner?: string;
   onClose: () => void;
 }
 
 /**
- * Mapping from partners.csv (Partner ID -> Popup content).
- * Only non-empty "Popup content" rows are listed here.
+ * Partner ID -> Popup content (from partners.csv)
+ * Only non-empty rows need to be listed; everything else counts as "empty".
  */
 const PARTNER_POPUP_CONTENT: Record<string, string> = {
   "5": "Perplexity Mastery Guide",
@@ -23,52 +23,42 @@ const PARTNER_POPUP_CONTENT: Record<string, string> = {
   "13": "Claude Mastery Guide",
   "14": "ChatGPT — Most Used Words",
   "15": "Tweet Generator Mega-Prompt",
-  "16": "Midjourney Mastery Guide",
-  "17": "Prompt Engineering Guide",
+  // add the rest of non-empty rows here if needed
 };
 
-const DEFAULT_BONUS_NAME = "WhatsApp group with AI speakers, experts & attendees";
+const DEFAULT_BONUS_NAME = "Perplexity Mastery Guide";
 
-/**
- * Per your requirement:
- * - If "Popup content" is empty => popup SHOULD appear.
- * That means we hide the popup only when content is present? (counterintuitive, but matches your sentence)
- *
- * If you actually meant the opposite, flip this to: const shouldShowPopup = bonusFromCsv !== "";
- */
-function computeShouldShowPopup(bonusFromCsv: string) {
-  return bonusFromCsv.trim() === "";
-}
-
-function readPartnerFromUrl(): string {
+function getPartnerFromUrl(): string {
   if (typeof window === "undefined") return "";
   const params = new URLSearchParams(window.location.search);
 
-  // Exact key requested: "Partner"
-  const direct = params.get("Partner");
-  if (direct && direct.trim()) return direct.trim();
-
-  // Small extra resilience (optional)
-  const lower = params.get("partner");
-  return (lower ?? "").trim();
+  // requested key: Partner
+  const v = params.get("Partner") || params.get("partner") || "";
+  return v.trim();
 }
 
 export function PartnerPopup({ partner, onClose }: PartnerPopupProps) {
   const [isVisible, setIsVisible] = useState(false);
+  const [partnerId, setPartnerId] = useState<string>("");
 
-  const partnerId = useMemo(() => {
-    const fromUrl = readPartnerFromUrl();
-    return (fromUrl || partner || "").trim();
+  // Read URL param on client (important for Next.js / SSR)
+  useEffect(() => {
+    const fromUrl = getPartnerFromUrl();
+    setPartnerId(fromUrl || (partner ?? "").trim());
   }, [partner]);
 
-  const bonusFromCsv = useMemo(() => {
+  const popupContent = useMemo(() => {
     if (!partnerId) return "";
-    return PARTNER_POPUP_CONTENT[partnerId] ?? "";
+    return (PARTNER_POPUP_CONTENT[partnerId] ?? "").trim();
   }, [partnerId]);
 
-  const shouldShowPopup = useMemo(() => computeShouldShowPopup(bonusFromCsv), [bonusFromCsv]);
+  // Per your requirement: if Popup content is empty -> popup should appear
+  const shouldShowPopup = useMemo(() => popupContent === "", [popupContent]);
 
-  const bonusName = useMemo(() => (bonusFromCsv.trim() ? bonusFromCsv.trim() : DEFAULT_BONUS_NAME), [bonusFromCsv]);
+  // When popup is shown (empty content), we still show a default bonus label
+  const bonusName = useMemo(() => {
+    return popupContent || DEFAULT_BONUS_NAME;
+  }, [popupContent]);
 
   useEffect(() => {
     if (!shouldShowPopup) return;
@@ -77,8 +67,7 @@ export function PartnerPopup({ partner, onClose }: PartnerPopupProps) {
     return () => clearTimeout(timer);
   }, [shouldShowPopup]);
 
-  if (!shouldShowPopup) return null;
-  if (!isVisible) return null;
+  if (!shouldShowPopup || !isVisible) return null;
 
   const calendlyUrl = `https://calendly.com/maxpog/ai/2026-01-22T16:00:00+00:00?month=2026-01&date=2026-01-22&utm_source=${encodeURIComponent(
     partnerId || ""
@@ -87,7 +76,7 @@ export function PartnerPopup({ partner, onClose }: PartnerPopupProps) {
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
       <div className="relative w-full max-w-2xl">
-        {/* Close Button - Outside popup */}
+        {/* Close Button */}
         <button
           onClick={() => {
             setIsVisible(false);
@@ -99,23 +88,18 @@ export function PartnerPopup({ partner, onClose }: PartnerPopupProps) {
           <X className="w-6 h-6 text-white" />
         </button>
 
-        {/* Wider popup */}
+        {/* Popup */}
         <div className="bg-white rounded-2xl shadow-2xl w-full overflow-hidden">
           <div className="p-10 text-center space-y-6">
-            {/* Title */}
             <h2 className="text-3xl font-bold text-gray-900">Don't Miss Out!</h2>
 
-            {/* Main CTA */}
             <div className="space-y-2">
               <p className="text-gray-700 font-semibold text-xl">Your Bonus is Ready!</p>
 
-              {/* Bonus line (dynamic) */}
-              <p className="text-gray-600 text-base">
-                🎁 {bonusName}
-              </p>
+              {/* 🎁 emoji + space before bonus */}
+              <p className="text-gray-600 text-base">🎁 {bonusName}</p>
             </div>
 
-            {/* Button */}
             <div className="space-y-3">
               <a
                 href={calendlyUrl}
@@ -127,7 +111,6 @@ export function PartnerPopup({ partner, onClose }: PartnerPopupProps) {
               </a>
             </div>
 
-            {/* Footer */}
             <div className="space-y-1 text-sm text-gray-500">
               <p>✓ Free conference access</p>
               <p>✓ Instant bonus delivery</p>
