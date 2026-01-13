@@ -47,11 +47,13 @@ export function PartnerPopup({ partner, onClose }: PartnerPopupProps) {
   })();
 
   const bonusName =
-    partnerPopupContent[normalizedPartnerId] ?? 'Perplexity Mastery Guide';
+    partnerPopupContent[normalizedPartnerId] ?? 'WhatsApp group with AI speakers, experts & attendees';
 
   const bonusText = `🎁 ${bonusName}`;
 
   if (!isVisible) return null;
+
+  const calendlyUrl = `https://calendly.com/maxpog/ai/2026-01-22T16:00:00+00:00?month=2026-01&date=2026-01-22&utm_source=${partner}`;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 px-4">
@@ -65,11 +67,11 @@ export function PartnerPopup({ partner, onClose }: PartnerPopupProps) {
 
         <div className="p-6 text-center">
           <h2 className="text-2xl font-bold text-gray-900">
-            You’re invited to COSPRINTS 2025 🚀
+            Don't Miss Out!
           </h2>
 
           <p className="mt-3 text-gray-600">
-            Join the world’s top AI builders and researchers.
+            Your Bonus is Ready!
           </p>
 
           <div className="mt-5 rounded-xl bg-gray-50 p-4">
@@ -80,18 +82,11 @@ export function PartnerPopup({ partner, onClose }: PartnerPopupProps) {
 
           <div className="mt-6 space-y-3">
             <a
-              href="https://conf.cosprints.ai"
+              href={calendlyUrl}
               className="block w-full rounded-xl bg-black px-6 py-3 text-white font-semibold hover:bg-gray-800 transition"
             >
-              Get Free Ticket
-            </a>
+              Claim your bonus + Register for free
 
-            <a
-              href="#"
-              onClick={onClose}
-              className="block w-full text-sm text-gray-400 hover:text-gray-600"
-            >
-              Maybe later
             </a>
           </div>
 
