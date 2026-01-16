@@ -58,8 +58,12 @@ function HomePage() {
     if (partnerParam) {
       setPartner(partnerParam);
       // Only show popup if partner has bonuses (exists in PARTNER_POPUP_CONTENT)
-      if (PARTNER_POPUP_CONTENT[partnerParam]) {
+      const hasBonus = partnerParam in PARTNER_POPUP_CONTENT;
+      if (hasBonus) {
         setShowPartnerPopup(true);
+      } else {
+        // Explicitly ensure popup is not shown for partners without bonuses
+        setShowPartnerPopup(false);
       }
     }
 
@@ -238,10 +242,10 @@ function HomePage() {
 
   return (
     <>
-      {showPartnerPopup && partner && (
+      {showPartnerPopup && partner && PARTNER_POPUP_CONTENT[partner] && (
         <PartnerPopup
           partner={partner}
-          bonusName={PARTNER_POPUP_CONTENT[partner] || ''}
+          bonusName={PARTNER_POPUP_CONTENT[partner]}
           onClose={() => setShowPartnerPopup(false)}
         />
       )}
