@@ -13,7 +13,7 @@ const PLACEHOLDER_IMG = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000
 const PARTNER_POPUP_CONTENT: Record<string, string> = {
   '5': 'Perplexity Mastery Guide',
   '6': 'ChatGPT Images Mastery Guide',
-  '7': 'Google's Veo Mastery Guide',
+  '7': 'Google\'s Veo Mastery Guide',
   '8': 'Gemini Mastery Guide',
   '9': 'AI Agents Mastery Guide',
   '10': 'Deep Researcher Mega-Prompt',
