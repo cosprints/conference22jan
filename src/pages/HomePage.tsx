@@ -9,6 +9,23 @@ import { HeroSpeakersCarousel } from '../components/HeroSpeakersCarousel';
 // Placeholder image for missing assets
 const PLACEHOLDER_IMG = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="100" height="100"%3E%3Crect fill="%23ddd" width="100" height="100"/%3E%3C/svg%3E';
 
+// Partner ID -> popup content (from CSV)
+const PARTNER_POPUP_CONTENT: Record<string, string> = {
+  '5': 'Perplexity Mastery Guide',
+  '6': 'ChatGPT Images Mastery Guide',
+  '7': 'Google's Veo Mastery Guide',
+  '8': 'Gemini Mastery Guide',
+  '9': 'AI Agents Mastery Guide',
+  '10': 'Deep Researcher Mega-Prompt',
+  '11': 'Grok Mastery Guide',
+  '12': 'AI Agents System Prompt Generator',
+  '13': 'Claude Mastery Guide',
+  '14': 'ChatGPT — Most Used Words',
+  '15': 'Tweet Generator Mega-Prompt',
+  '16': 'Midjourney Mastery Guide',
+  '17': 'Prompt Engineering Guide'
+};
+
 function HomePage() {
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
   const [partner, setPartner] = useState<string | null>(null);
@@ -40,7 +57,10 @@ function HomePage() {
 
     if (partnerParam) {
       setPartner(partnerParam);
-      setShowPartnerPopup(true);
+      // Only show popup if partner has bonuses (exists in PARTNER_POPUP_CONTENT)
+      if (PARTNER_POPUP_CONTENT[partnerParam]) {
+        setShowPartnerPopup(true);
+      }
     }
 
     const updateCalendlyUrl = () => {
@@ -48,6 +68,7 @@ function HomePage() {
         ? 'https://calendly.com/maxpog/ai/2026-01-22T16:00:00+00:00?month=2026-01&date=2026-01-22'
         : 'https://calendly.com/maxpog/ai/';
 
+      // Always use partner ID for UTM, even if popup doesn't show
       const urlWithUtm = partnerParam ? `${baseUrl}${baseUrl.includes('?') ? '&' : '?'}utm_source=${partnerParam}` : baseUrl;
       setCalendlyUrl(urlWithUtm);
     };
@@ -220,6 +241,7 @@ function HomePage() {
       {showPartnerPopup && partner && (
         <PartnerPopup
           partner={partner}
+          bonusName={PARTNER_POPUP_CONTENT[partner] || ''}
           onClose={() => setShowPartnerPopup(false)}
         />
       )}
