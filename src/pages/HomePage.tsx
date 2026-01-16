@@ -214,11 +214,40 @@ function HomePage() {
 
 
   const scrollToSection = (sectionId: string) => {
+    // Update URL hash without triggering scroll
+    window.history.pushState(null, '', `#${sectionId}`);
+    
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
+
+  // Handle initial page load with hash and browser back/forward navigation
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash.slice(1); // Remove the # symbol
+      if (hash) {
+        const element = document.getElementById(hash);
+        if (element) {
+          // Small delay to ensure page is fully loaded
+          setTimeout(() => {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }, 100);
+        }
+      }
+    };
+
+    // Handle initial load
+    handleHashChange();
+
+    // Handle browser back/forward navigation
+    window.addEventListener('hashchange', handleHashChange);
+
+    return () => {
+      window.removeEventListener('hashchange', handleHashChange);
+    };
+  }, []);
 
   React.useEffect(() => {
     const observer = new IntersectionObserver(
