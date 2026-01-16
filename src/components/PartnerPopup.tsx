@@ -3,10 +3,11 @@ import { X } from 'lucide-react';
 
 interface PartnerPopupProps {
   partner: string;
+  bonusName: string;
   onClose: () => void;
 }
 
-export function PartnerPopup({ partner, onClose }: PartnerPopupProps) {
+export function PartnerPopup({ partner, bonusName, onClose }: PartnerPopupProps) {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -16,38 +17,6 @@ export function PartnerPopup({ partner, onClose }: PartnerPopupProps) {
 
     return () => clearTimeout(timer);
   }, []);
-
-  // Partner ID -> popup content (from CSV)
-  const partnerPopupContent: Record<string, string> = {
-    '5': 'Perplexity Mastery Guide',
-    '6': 'ChatGPT Images Mastery Guide',
-    '7': 'Google’s Veo Mastery Guide',
-    '8': 'Gemini Mastery Guide',
-    '9': 'AI Agents Mastery Guide',
-    '10': 'Deep Researcher Mega-Prompt',
-    '11': 'Grok Mastery Guide',
-    '12': 'AI Agents System Prompt Generator',
-    '13': 'Claude Mastery Guide',
-    '14': 'ChatGPT — Most Used Words',
-    '15': 'Tweet Generator Mega-Prompt',
-    '16': 'Midjourney Mastery Guide',
-    '17': 'Prompt Engineering Guide'
-  };
-
-  // Normalize partner input (supports "7", "?7", "Partner=7", "partner=7")
-  const normalizedPartnerId = (() => {
-    const raw = (partner ?? '').trim();
-    const noLeadingQuestion = raw.startsWith('?') ? raw.slice(1) : raw;
-
-    const match =
-      noLeadingQuestion.match(/(?:^|[?&])(?:Partner|partner)=?(\d+)\b/) ||
-      noLeadingQuestion.match(/^(\d+)\b/);
-
-    return match ? match[1] : noLeadingQuestion;
-  })();
-
-  const bonusName =
-    partnerPopupContent[normalizedPartnerId] ?? 'WhatsApp group with AI speakers, experts & attendees';
 
   const bonusText = `🎁 ${bonusName}`;
 
