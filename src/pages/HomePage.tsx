@@ -975,13 +975,13 @@ function HomePage() {
               </div>
               <div className="px-4 py-6">
                 <div className="mb-3 flex flex-wrap items-center gap-2">
-                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">CEO</span>
+                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">Co-Founder</span>
                   <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
                     <img src="/ai_pulse_logo.png" alt="The AI Pulse" className="h-5" onError={handleImageError} />
                   </span>
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2">Rohun Shroff</h3>
-                <p className="text-gray-400 text-sm italic">Leading innovation in AI and technology at The AI Pulse</p>
+                <p className="text-gray-400 text-sm italic">Leading research on how AI affects our cognition, behavior, and society at The AI Pulse</p>
               </div>
             </div>
           </div>
@@ -1450,7 +1450,7 @@ function HomePage() {
                 <div>
                   <div className="flex items-center gap-2">
                     <img src="/rohun-shroff.jpg" alt="Rohun Shroff" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
-                    <span className="text-gray-900">Rohun Shroff, CEO</span>
+                    <span className="text-gray-900">Rohun Shroff, Co-Founder</span>
                     <img src="/ai_pulse_logo.png" alt="The AI Pulse" className="h-5" onError={handleImageError} />
                   </div>
                 </div>
