@@ -1350,6 +1350,7 @@ function HomePage() {
                   <div className="flex items-center gap-2">
                     <img src="/filev.jpg" alt="Andrew Filev" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
                     <span className="text-gray-900">Andrew Filev, Founder & CEO</span>
+                    <img src="/zencoder-logo.png" alt="The Product Compass" className="h-4" onError={handleImageError} />
                   </div>
                 </div>
               </div>
@@ -1400,7 +1401,7 @@ function HomePage() {
                 </div>
                 <div>
                   <div className="flex items-center gap-2">
-                    <img src="/huryn copy.jpg" alt="Pawel Huryn" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
+                    <img src="/huryn_copy.jpg" alt="Pawel Huryn" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
                     <span className="text-gray-900">Pawel Huryn, CEO</span>
                     <img src="/product-compass.png" alt="The Product Compass" className="h-4" onError={handleImageError} />
                   </div>
