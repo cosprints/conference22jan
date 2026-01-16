@@ -101,7 +101,7 @@ const SPEAKERS: Speaker[] = [
   {
     id: 11,
     name: 'Pawel Huryn',
-    image: '/huryn copy.jpg',
+    image: '/huryn_copy.jpg',
     company: 'The Product Compass',
     companyLogo: '/product-compass.png',
     role: 'CEO',
