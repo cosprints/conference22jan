@@ -1789,91 +1789,91 @@ function HomePage() {
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 max-w-6xl mx-auto">
               <div className="flex items-center justify-center p-4 rounded-xl">
                 <img
-                  src="/media-partners/ai_pulse_logo.png"
+                  src="/ai_pulse_logo.png"
                   alt="AI Pulse"
                   className="w-full h-16 object-contain rounded" onError={handleImageError} />
               </div>
               <div className="flex items-center justify-center p-4 rounded-xl">
                 <img
-                  src="/media-partners/davidj.substack.png"
+                  src="/davidj.substack.png"
                   alt="David J Substack"
                   className="w-full h-16 object-contain rounded" onError={handleImageError} />
               </div>
               <div className="flex items-center justify-center p-4 rounded-xl">
                 <img
-                  src="/media-partners/encountr.png"
+                  src="/encountr.png"
                   alt="Encountr"
                   className="w-full h-16 object-contain rounded" onError={handleImageError} />
               </div>
               <div className="flex items-center justify-center p-4 rounded-xl">
                 <img
-                  src="/media-partners/fastbreak_one_logo.jpeg"
+                  src="/fastbreak_one_logo.jpeg"
                   alt="Fastbreak One"
                   className="w-full h-16 object-contain rounded" onError={handleImageError} />
               </div>
               <div className="flex items-center justify-center p-4 rounded-xl">
                 <img
-                  src="/media-partners/fundingstack.png"
+                  src="/fundingstack.png"
                   alt="Funding Stack"
                   className="w-full h-16 object-contain rounded" onError={handleImageError} />
               </div>
               <div className="flex items-center justify-center p-4 rounded-xl">
                 <img
-                  src="/media-partners/herts.png"
+                  src="/herts.png"
                   alt="Herts"
                   className="w-full h-16 object-contain rounded" onError={handleImageError} />
               </div>
               <div className="flex items-center justify-center p-4 rounded-xl">
                 <img
-                  src="/media-partners/kwame.png"
+                  src="/kwame.png"
                   alt="Kwame"
                   className="w-full h-16 object-contain rounded" onError={handleImageError} />
               </div>
               <div className="flex items-center justify-center p-4 rounded-xl">
                 <img
-                  src="/media-partners/lead_gen_man.png"
+                  src="/lead_gen_man.png"
                   alt="Lead Gen Man"
                   className="w-full h-16 object-contain rounded" onError={handleImageError} />
               </div>
               <div className="flex items-center justify-center p-4 rounded-xl">
                 <img
-                  src="/media-partners/menwish.png"
+                  src="/menwish.png"
                   alt="Menwish"
                   className="w-full h-16 object-contain rounded" onError={handleImageError} />
               </div>
               <div className="flex items-center justify-center p-4 rounded-xl">
                 <img
-                  src="/media-partners/mind-the-product.png"
+                  src="/mind-the-product.png"
                   alt="Mind the Product"
                   className="w-full h-16 object-contain rounded" onError={handleImageError} />
               </div>
               <div className="flex items-center justify-center p-4 rounded-xl">
                 <img
-                  src="/media-partners/prettyagile.png"
+                  src="/prettyagile.png"
                   alt="Pretty Agile"
                   className="w-full h-16 object-contain rounded" onError={handleImageError} />
               </div>
               <div className="flex items-center justify-center p-4 rounded-xl">
                 <img
-                  src="/media-partners/r3i-capital.jpg"
+                  src="/r3i-capital.jpg"
                   alt="R3I Capital"
                   className="w-full h-16 object-contain rounded" onError={handleImageError} />
               </div>
               <div className="flex items-center justify-center p-4 rounded-xl">
                 <img
-                  src="/media-partners/right_click_prompt.png"
+                  src="/right_click_prompt.png"
                   alt="Right Click Prompt"
                   className="w-full h-16 object-contain rounded" onError={handleImageError} />
               </div>
               <div className="flex items-center justify-center p-4 rounded-xl">
                 <img
-                  src="/media-partners/the-automated.png"
+                  src="/the-automated.png"
                   alt="The Automated"
                   className="w-full h-16 object-contain rounded" onError={handleImageError} />
               </div>
               <div className="flex items-center justify-center p-4 rounded-xl">
                 <img
-                  src="/media-partners/ufeed.png"
+                  src="/ufeed.png"
                   alt="Ufeed"
                   className="w-full h-16 object-contain rounded" onError={handleImageError} />
               </div>
