@@ -1515,7 +1515,7 @@ function HomePage() {
           <div className="mb-16">
             <h3 className="hero-title text-2xl lg:text-3xl font-bold text-black mb-8 text-center">Co-Hosted by Leading AI Communities</h3>
 
-            <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto">
               {/* Community Sprints */}
               <div className="flex flex-col items-center text-center p-6 rounded-xl">
                 <div className="w-20 h-20 mb-4 flex items-center justify-center overflow-hidden rounded-lg">
@@ -1600,6 +1600,29 @@ function HomePage() {
                       className="w-12 h-12 rounded-full object-cover mb-1" onError={handleImageError} />
                     <span className="text-xs text-gray-700 font-medium">Robert Youssef</span>
                   </div>
+                </div>
+              </div>
+
+              {/* Product Growth */}
+              <div className="flex flex-col items-center text-center p-6 rounded-xl">
+                <div className="w-20 h-20 mb-4 flex items-center justify-center overflow-hidden rounded-lg">
+                  <img
+                    src="/product_growth_logo.jpg"
+                    alt="Product Growth"
+                    className="w-full h-full object-contain rounded-lg" onError={handleImageError} />
+                </div>
+                <h4 className="text-lg font-bold text-gray-900 mb-2">
+                  Product Growth
+                </h4>
+                <p className="text-sm text-gray-600 leading-relaxed mb-4">
+                  The newsletter & podcast for AI PMs
+                </p>
+                <div className="flex flex-col items-center mt-2">
+                  <img
+                    src="/aakash_gupta.jpg"
+                    alt="Aakash Gupta"
+                    className="w-12 h-12 rounded-full object-cover mb-1" onError={handleImageError} />
+                  <span className="text-xs text-gray-700 font-medium">Aakash Gupta</span>
                 </div>
               </div>
             </div>
