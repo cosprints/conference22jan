@@ -1033,6 +1033,146 @@ function HomePage() {
                 <p className="text-gray-400 text-sm italic">He is a former VP of Product at a Unicorn who now writes one of the most actionable newsletters for product managers, product leaders, and aspiring PMs. He focuses on product growth, product-led growth (PLG), and scaling B2B SaaS through the product itself.</p>
               </div>
             </div>
+
+            <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
+              <div className="relative h-64 w-full bg-gradient-to-br from-cyan-400 to-blue-600">
+                <img
+                  src="/seva_ustinov.jpeg"
+                  alt="Seva Ustinov"
+                  className="w-full h-full object-cover"
+                  loading="lazy" onError={handleImageError} />
+              </div>
+              <div className="px-4 py-6">
+                <div className="mb-3 flex flex-wrap items-center gap-2">
+                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">Founder</span>
+                  <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
+                    <img src="/plurio.png" alt="Plurio" className="h-5" onError={handleImageError} />
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-white mb-2">Seva Ustinov</h3>
+                <p className="text-gray-400 text-sm italic">Expert in building AI‑native companies. Over the past year, Seva moved his entire team into Cursor and built a unified AI operating layer where company context and rules are shared, onboarding and knowledge transfer happen in minutes, and routine work is automated.</p>
+              </div>
+            </div>
+
+            <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
+              <div className="relative h-64 w-full bg-gradient-to-br from-blue-400 to-indigo-600">
+                <img
+                  src="/Angela_Elle_Sun.jpeg"
+                  alt="Angela Elle Sun"
+                  className="w-full h-full object-cover"
+                  loading="lazy" onError={handleImageError} />
+              </div>
+              <div className="px-4 py-6">
+                <div className="mb-3 flex flex-wrap items-center gap-2">
+                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">AI Adoption Lead</span>
+                  <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
+                    <img src="/microsoft-logo.png" alt="Microsoft" className="h-5" onError={handleImageError} />
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-white mb-2">Angela Elle Sun</h3>
+                <p className="text-gray-400 text-sm italic">Expert on all things related to AI Adoption in Enterprise, from leading internal AI adoption programs internally at Microsoft to founding 'Enterprise AI Enabled', a private network of AI Enablement Executives across 40+ F500s.</p>
+              </div>
+            </div>
+
+            <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
+              <div className="relative h-64 w-full bg-gradient-to-br from-orange-400 to-red-600">
+                <img
+                  src="/boris_krumrey.jpeg"
+                  alt="Boris Krumrey"
+                  className="w-full h-full object-cover"
+                  loading="lazy" onError={handleImageError} />
+              </div>
+              <div className="px-4 py-6">
+                <div className="mb-3 flex flex-wrap items-center gap-2">
+                  <span className="inline-block bg-gray-600 text-white px-3 py-2 rounded-full text-sm font-medium">VP Automation</span>
+                  <span className="inline-flex items-center bg-white px-3 py-2 rounded-full">
+                    <img src="/uipath.png" alt="UiPath" className="h-5" onError={handleImageError} />
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-white mb-2">Boris Krumrey</h3>
+                <p className="text-gray-400 text-sm italic">He works with global organizations to drive large-scale process automation and AI adoption. He focuses on helping enterprises transform operations using intelligent automation, AI agents, and platform-driven workflows.</p>
+              </div>
+            </div>
+
+            <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
+              <div className="relative h-64 w-full bg-gradient-to-br from-yellow-400 to-amber-600">
+                <img
+                  src="/amandeep_khurana.jpeg"
+                  alt="Amandeep Khurana"
+                  className="w-full h-full object-cover"
+                  loading="lazy" onError={handleImageError} />
+              </div>
+              <div className="px-4 py-6">
+                <div className="mb-3 flex flex-wrap items-center gap-2">
+                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">Product Manager</span>
+                  <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
+                    <img src="/aws.png" alt="AWS" className="h-5" onError={handleImageError} />
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-white mb-2">Amandeep Khurana</h3>
+                <p className="text-gray-400 text-sm italic">At AWS, he leads product initiatives for Generative AI–based developer tools, where he created the concept and vision for kiro.dev, an AI-first IDE for agentic software development, and led product-led growth (PLG) efforts for Amazon Q Developer.</p>
+              </div>
+            </div>
+
+            <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
+              <div className="relative h-64 w-full bg-gradient-to-br from-teal-400 to-green-600">
+                <img
+                  src="/David_Jayatillake.jpeg"
+                  alt="David Jayatillake"
+                  className="w-full h-full object-cover"
+                  loading="lazy" onError={handleImageError} />
+              </div>
+              <div className="px-4 py-6">
+                <div className="mb-3 flex flex-wrap items-center gap-2">
+                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">Founder</span>
+                  <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
+                    <img src="/davidj.substack.png" alt="davidj.substack" className="h-5" onError={handleImageError} />
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-white mb-2">David Jayatillake</h3>
+                <p className="text-gray-400 text-sm italic">Experienced and world renowned data, technology and AI leader. Expert in the application of LLMs to the semantic layer. Writes at davidsj.substack.com about data, leadership, venture capital and AI.</p>
+              </div>
+            </div>
+
+            <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
+              <div className="relative h-64 w-full bg-gradient-to-br from-rose-400 to-pink-600">
+                <img
+                  src="/Kamil_Banc.jpeg"
+                  alt="Kamil Banc"
+                  className="w-full h-full object-cover"
+                  loading="lazy" onError={handleImageError} />
+              </div>
+              <div className="px-4 py-6">
+                <div className="mb-3 flex flex-wrap items-center gap-2">
+                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">Founder</span>
+                  <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
+                    <img src="/right_click_prompt.png" alt="Right Click Prompt" className="h-5" onError={handleImageError} />
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-white mb-2">Kamil Banc</h3>
+                <p className="text-gray-400 text-sm italic">The founder of the AI Adopters Club and one of Substack's top technology best sellers. He serves as a fractional Chief AI Officer for Fortune 500 companies.</p>
+              </div>
+            </div>
+
+            <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
+              <div className="relative h-64 w-full bg-gradient-to-br from-indigo-400 to-purple-600">
+                <img
+                  src="/Tak_Lo.jpeg"
+                  alt="Tak Lo"
+                  className="w-full h-full object-cover"
+                  loading="lazy" onError={handleImageError} />
+              </div>
+              <div className="px-4 py-6">
+                <div className="mb-3 flex flex-wrap items-center gap-2">
+                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">Founder</span>
+                  <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
+                    <img src="/the-automated.png" alt="The Automated" className="h-5" onError={handleImageError} />
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-white mb-2">Tak Lo</h3>
+                <p className="text-gray-400 text-sm italic">He is passionate about inspiring 1 billion people with AI. He founded Zeroth.ai, one of the first accelerators that solely focused on AI technologies.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -1188,7 +1328,7 @@ function HomePage() {
                       <span className="text-gray-900">Jay Singh, CEO</span>
                       <img src="/logo-casper-studios.png" alt="Casper Studios" className="h-5" onError={handleImageError} />
                     </div>
-                    <span className="text-gray-600 italic ml-10">Moderator: Secret moderator</span>
+                    <span className="text-gray-600 italic ml-10">Moderator: Emilia David</span>
                   </div>
                 </div>
               </div>
