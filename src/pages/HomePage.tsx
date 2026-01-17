@@ -1780,6 +1780,108 @@ function HomePage() {
         </div>
       </section>
 
+      {/* Media Partners Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mb-16">
+            <h3 className="hero-title text-2xl lg:text-3xl font-bold text-black mb-8 text-center">Media Partners</h3>
+
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 max-w-6xl mx-auto">
+              <div className="flex items-center justify-center p-4 rounded-xl">
+                <img
+                  src="/media-partners/ai_pulse_logo.png"
+                  alt="AI Pulse"
+                  className="w-full h-16 object-contain rounded" onError={handleImageError} />
+              </div>
+              <div className="flex items-center justify-center p-4 rounded-xl">
+                <img
+                  src="/media-partners/davidj.substack.png"
+                  alt="David J Substack"
+                  className="w-full h-16 object-contain rounded" onError={handleImageError} />
+              </div>
+              <div className="flex items-center justify-center p-4 rounded-xl">
+                <img
+                  src="/media-partners/encountr.png"
+                  alt="Encountr"
+                  className="w-full h-16 object-contain rounded" onError={handleImageError} />
+              </div>
+              <div className="flex items-center justify-center p-4 rounded-xl">
+                <img
+                  src="/media-partners/fastbreak_one_logo.jpeg"
+                  alt="Fastbreak One"
+                  className="w-full h-16 object-contain rounded" onError={handleImageError} />
+              </div>
+              <div className="flex items-center justify-center p-4 rounded-xl">
+                <img
+                  src="/media-partners/fundingstack.png"
+                  alt="Funding Stack"
+                  className="w-full h-16 object-contain rounded" onError={handleImageError} />
+              </div>
+              <div className="flex items-center justify-center p-4 rounded-xl">
+                <img
+                  src="/media-partners/herts.png"
+                  alt="Herts"
+                  className="w-full h-16 object-contain rounded" onError={handleImageError} />
+              </div>
+              <div className="flex items-center justify-center p-4 rounded-xl">
+                <img
+                  src="/media-partners/kwame.png"
+                  alt="Kwame"
+                  className="w-full h-16 object-contain rounded" onError={handleImageError} />
+              </div>
+              <div className="flex items-center justify-center p-4 rounded-xl">
+                <img
+                  src="/media-partners/lead_gen_man.png"
+                  alt="Lead Gen Man"
+                  className="w-full h-16 object-contain rounded" onError={handleImageError} />
+              </div>
+              <div className="flex items-center justify-center p-4 rounded-xl">
+                <img
+                  src="/media-partners/menwish.png"
+                  alt="Menwish"
+                  className="w-full h-16 object-contain rounded" onError={handleImageError} />
+              </div>
+              <div className="flex items-center justify-center p-4 rounded-xl">
+                <img
+                  src="/media-partners/mind-the-product.png"
+                  alt="Mind the Product"
+                  className="w-full h-16 object-contain rounded" onError={handleImageError} />
+              </div>
+              <div className="flex items-center justify-center p-4 rounded-xl">
+                <img
+                  src="/media-partners/prettyagile.png"
+                  alt="Pretty Agile"
+                  className="w-full h-16 object-contain rounded" onError={handleImageError} />
+              </div>
+              <div className="flex items-center justify-center p-4 rounded-xl">
+                <img
+                  src="/media-partners/r3i-capital.jpg"
+                  alt="R3I Capital"
+                  className="w-full h-16 object-contain rounded" onError={handleImageError} />
+              </div>
+              <div className="flex items-center justify-center p-4 rounded-xl">
+                <img
+                  src="/media-partners/right_click_prompt.png"
+                  alt="Right Click Prompt"
+                  className="w-full h-16 object-contain rounded" onError={handleImageError} />
+              </div>
+              <div className="flex items-center justify-center p-4 rounded-xl">
+                <img
+                  src="/media-partners/the-automated.png"
+                  alt="The Automated"
+                  className="w-full h-16 object-contain rounded" onError={handleImageError} />
+              </div>
+              <div className="flex items-center justify-center p-4 rounded-xl">
+                <img
+                  src="/media-partners/ufeed.png"
+                  alt="Ufeed"
+                  className="w-full h-16 object-contain rounded" onError={handleImageError} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Trusted By Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
