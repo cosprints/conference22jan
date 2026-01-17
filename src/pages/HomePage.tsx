@@ -94,6 +94,7 @@ function HomePage() {
 
   const companyLogos = [
     { src: '/microsoft-logo.png', alt: 'Microsoft' },
+    { src: '/aws.png', alt: 'AWS' },
     { src: '/deliveroo.png', alt: 'Deliveroo' },
     { src: '/google-ai-logo.png', alt: 'Google AI' },
     { src: '/miro-logo.png', alt: 'Miro' },
@@ -755,22 +756,22 @@ function HomePage() {
             </div>
 
             <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
-              <div className="relative h-64 w-full bg-gradient-to-br from-green-400 to-emerald-600">
+              <div className="relative h-64 w-full bg-gradient-to-br from-yellow-400 to-amber-600">
                 <img
-                  src="/joseph.jpg"
-                  alt="Raphael Joseph"
+                  src="/amandeep_khurana.jpeg"
+                  alt="Amandeep Khurana"
                   className="w-full h-full object-cover"
                   loading="lazy" onError={handleImageError} />
               </div>
               <div className="px-4 py-6">
                 <div className="mb-3 flex flex-wrap items-center gap-2">
-                  <span className="inline-block bg-gray-600 text-white px-3 py-2 rounded-full text-sm font-medium">Co-Founder</span>
-                  <span className="inline-flex items-center bg-white px-3 py-2 rounded-full">
-                    <img src="/raphael_joseph_company_logo.png" alt="We Are Agentic" className="h-5" onError={handleImageError} />
+                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">Product Manager</span>
+                  <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
+                    <img src="/aws.png" alt="AWS" className="h-5" onError={handleImageError} />
                   </span>
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2">Raphael Joseph</h3>
-                <p className="text-gray-400 text-sm italic">Co-founded an AI training and consulting firm that helps enterprises implement agentic workflows and AI adoption strategies across the UK, Europe, GCC, and the USA.</p>
+                <h3 className="text-lg font-bold text-white mb-2">Amandeep Khurana</h3>
+                <p className="text-gray-400 text-sm italic">At AWS, he leads product initiatives for Generative AI–based developer tools, where he created the concept and vision for kiro.dev, an AI-first IDE for agentic software development, and led product-led growth (PLG) efforts for Amazon Q Developer.</p>
               </div>
             </div>
 
@@ -795,22 +796,22 @@ function HomePage() {
             </div>
 
             <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
-              <div className="relative h-64 w-full bg-gradient-to-br from-blue-400 to-cyan-600">
+              <div className="relative h-64 w-full bg-gradient-to-br from-blue-400 to-indigo-600">
                 <img
-                  src="/carraro.jpg"
-                  alt="Fabrício Carraro"
+                  src="/Angela_Elle_Sun.jpeg"
+                  alt="Angela Elle Sun"
                   className="w-full h-full object-cover"
                   loading="lazy" onError={handleImageError} />
               </div>
               <div className="px-4 py-6">
                 <div className="mb-3 flex flex-wrap items-center gap-2">
-                  <span className="inline-block bg-gray-600 text-white px-3 py-2 rounded-full text-sm font-medium">AI Developer Advocate</span>
-                  <span className="inline-flex items-center bg-white px-3 py-2 rounded-full">
-                    <img src="/fabricio_carraroco_company.png" alt="Barcelona Supercomputing Center" className="h-5" onError={handleImageError} />
+                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">AI Adoption Lead</span>
+                  <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
+                    <img src="/microsoft-logo.png" alt="Microsoft" className="h-5" onError={handleImageError} />
                   </span>
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2">Fabrício Carraro</h3>
-                <p className="text-gray-400 text-sm italic">Advancing AI development and innovation</p>
+                <h3 className="text-lg font-bold text-white mb-2">Angela Elle Sun</h3>
+                <p className="text-gray-400 text-sm italic">Expert on all things related to AI Adoption in Enterprise, from leading internal AI adoption programs internally at Microsoft to founding 'Enterprise AI Enabled', a private network of AI Enablement Executives across 40+ F500s.</p>
               </div>
             </div>
 
@@ -1055,22 +1056,22 @@ function HomePage() {
             </div>
 
             <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
-              <div className="relative h-64 w-full bg-gradient-to-br from-blue-400 to-indigo-600">
+              <div className="relative h-64 w-full bg-gradient-to-br from-blue-400 to-cyan-600">
                 <img
-                  src="/Angela_Elle_Sun.jpeg"
-                  alt="Angela Elle Sun"
+                  src="/carraro.jpg"
+                  alt="Fabrício Carraro"
                   className="w-full h-full object-cover"
                   loading="lazy" onError={handleImageError} />
               </div>
               <div className="px-4 py-6">
                 <div className="mb-3 flex flex-wrap items-center gap-2">
-                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">AI Adoption Lead</span>
-                  <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
-                    <img src="/microsoft-logo.png" alt="Microsoft" className="h-5" onError={handleImageError} />
+                  <span className="inline-block bg-gray-600 text-white px-3 py-2 rounded-full text-sm font-medium">AI Developer Advocate</span>
+                  <span className="inline-flex items-center bg-white px-3 py-2 rounded-full">
+                    <img src="/fabricio_carraroco_company.png" alt="Barcelona Supercomputing Center" className="h-5" onError={handleImageError} />
                   </span>
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2">Angela Elle Sun</h3>
-                <p className="text-gray-400 text-sm italic">Expert on all things related to AI Adoption in Enterprise, from leading internal AI adoption programs internally at Microsoft to founding 'Enterprise AI Enabled', a private network of AI Enablement Executives across 40+ F500s.</p>
+                <h3 className="text-lg font-bold text-white mb-2">Fabrício Carraro</h3>
+                <p className="text-gray-400 text-sm italic">Advancing AI development and innovation</p>
               </div>
             </div>
 
@@ -1095,22 +1096,22 @@ function HomePage() {
             </div>
 
             <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
-              <div className="relative h-64 w-full bg-gradient-to-br from-yellow-400 to-amber-600">
+              <div className="relative h-64 w-full bg-gradient-to-br from-green-400 to-emerald-600">
                 <img
-                  src="/amandeep_khurana.jpeg"
-                  alt="Amandeep Khurana"
+                  src="/joseph.jpg"
+                  alt="Raphael Joseph"
                   className="w-full h-full object-cover"
                   loading="lazy" onError={handleImageError} />
               </div>
               <div className="px-4 py-6">
                 <div className="mb-3 flex flex-wrap items-center gap-2">
-                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">Product Manager</span>
-                  <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
-                    <img src="/aws.png" alt="AWS" className="h-5" onError={handleImageError} />
+                  <span className="inline-block bg-gray-600 text-white px-3 py-2 rounded-full text-sm font-medium">Co-Founder</span>
+                  <span className="inline-flex items-center bg-white px-3 py-2 rounded-full">
+                    <img src="/raphael_joseph_company_logo.png" alt="We Are Agentic" className="h-5" onError={handleImageError} />
                   </span>
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2">Amandeep Khurana</h3>
-                <p className="text-gray-400 text-sm italic">At AWS, he leads product initiatives for Generative AI–based developer tools, where he created the concept and vision for kiro.dev, an AI-first IDE for agentic software development, and led product-led growth (PLG) efforts for Amazon Q Developer.</p>
+                <h3 className="text-lg font-bold text-white mb-2">Raphael Joseph</h3>
+                <p className="text-gray-400 text-sm italic">Co-founded an AI training and consulting firm that helps enterprises implement agentic workflows and AI adoption strategies across the UK, Europe, GCC, and the USA.</p>
               </div>
             </div>
 
@@ -1185,7 +1186,12 @@ function HomePage() {
             <p className="text-xl text-gray-700">Full agenda of talks and workshops</p>
           </div>
 
-          <div className="space-y-4">
+          <div className="flex justify-center gap-4 mb-8">
+            <a href="#track1" className="text-black hover:text-purple-600 font-medium transition-colors border-b-2 border-transparent hover:border-purple-600 pb-2">Track 1</a>
+            <a href="#track2" className="text-black hover:text-purple-600 font-medium transition-colors border-b-2 border-transparent hover:border-purple-600 pb-2">Track 2</a>
+          </div>
+
+          <div id="track1" className="space-y-4">
             {/* Schedule Card 1 */}
             <div className="bg-white border-2 border-black rounded-lg hover:shadow-lg transition-shadow">
               <div className="flex flex-col md:grid md:grid-cols-[120px_140px_1fr_1fr] gap-4 p-4 md:p-6">
@@ -1535,14 +1541,13 @@ function HomePage() {
                   <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
                 </div>
                 <div>
-                  <div className="hero-title text-gray-700 text-lg mb-3 md:mb-0">Secret topic</div>
+                  <div className="hero-title text-gray-700 text-lg mb-3 md:mb-0">Stop using AI in your browser</div>
                 </div>
                 <div>
                   <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 rounded-full bg-gradient-to-br from-gray-400 to-gray-600 flex items-center justify-center flex-shrink-0">
-                      <User className="w-4 h-4 text-gray-200" />
-                    </div>
-                    <span className="text-gray-900">Secret Speaker</span>
+                    <img src="/aakash_gupta.jpg" alt="Aakash Gupta" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
+                    <span className="text-gray-900">Aakash Gupta, Founder</span>
+                    <span className="text-gray-700 text-xs font-medium">Product Growth</span>
                   </div>
                 </div>
               </div>
@@ -1647,6 +1652,194 @@ function HomePage() {
                     <img src="/rohun-shroff.jpg" alt="Rohun Shroff" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
                     <span className="text-gray-900">Rohun Shroff, Co-Founder</span>
                     <img src="/ai_pulse_logo.png" alt="The AI Pulse" className="h-5" onError={handleImageError} />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Schedule Card 16 */}
+            <div className="bg-white border-2 border-black rounded-lg hover:shadow-lg transition-shadow">
+              <div className="flex flex-col md:grid md:grid-cols-[120px_140px_1fr_1fr] gap-4 p-4 md:p-6">
+                <div className="md:hidden flex items-center gap-3">
+                  <div className="text-gray-900 font-bold text-lg">15:50 <span className="text-gray-400">(NYC)</span></div>
+                  <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
+                </div>
+                <div className="hidden md:block">
+                  <div className="text-gray-900 font-bold text-lg">15:50 <span className="text-gray-400">(NYC)</span></div>
+                </div>
+                <div className="hidden md:block">
+                  <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
+                </div>
+                <div>
+                  <div className="hero-title text-gray-700 text-lg mb-3 md:mb-0">AGI is probably here</div>
+                </div>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <img src="/David_Jayatillake.jpeg" alt="David Jayatillake" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
+                    <span className="text-gray-900">David Jayatillake, Founder</span>
+                    <img src="/davidj.substack.png" alt="davidj.substack" className="h-5" onError={handleImageError} />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Schedule Card 17 */}
+            <div className="bg-white border-2 border-black rounded-lg hover:shadow-lg transition-shadow">
+              <div className="flex flex-col md:grid md:grid-cols-[120px_140px_1fr_1fr] gap-4 p-4 md:p-6">
+                <div className="md:hidden flex items-center gap-3">
+                  <div className="text-gray-900 font-bold text-lg">15:55 <span className="text-gray-400">(NYC)</span></div>
+                  <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
+                </div>
+                <div className="hidden md:block">
+                  <div className="text-gray-900 font-bold text-lg">15:55 <span className="text-gray-400">(NYC)</span></div>
+                </div>
+                <div className="hidden md:block">
+                  <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
+                </div>
+                <div>
+                  <div className="hero-title text-gray-700 text-lg mb-3 md:mb-0">Developing your Human API</div>
+                </div>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <img src="/Kamil_Banc.jpeg" alt="Kamil Banc" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
+                    <span className="text-gray-900">Kamil Banc, Founder</span>
+                    <img src="/right_click_prompt.png" alt="Right Click Prompt" className="h-5" onError={handleImageError} />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Schedule Card 18 */}
+            <div className="bg-white border-2 border-black rounded-lg hover:shadow-lg transition-shadow">
+              <div className="flex flex-col md:grid md:grid-cols-[120px_140px_1fr_1fr] gap-4 p-4 md:p-6">
+                <div className="md:hidden flex items-center gap-3">
+                  <div className="text-gray-900 font-bold text-lg">16:00 <span className="text-gray-400">(NYC)</span></div>
+                  <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
+                </div>
+                <div className="hidden md:block">
+                  <div className="text-gray-900 font-bold text-lg">16:00 <span className="text-gray-400">(NYC)</span></div>
+                </div>
+                <div className="hidden md:block">
+                  <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
+                </div>
+                <div>
+                  <div className="hero-title text-gray-700 text-lg mb-3 md:mb-0">Secret Topic</div>
+                </div>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <img src="/Tak_Lo.jpeg" alt="Tak Lo" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
+                    <span className="text-gray-900">Tak Lo, Founder</span>
+                    <img src="/the-automated.png" alt="The Automated" className="h-5" onError={handleImageError} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="track2" className="mt-16">
+            <h3 className="hero-title text-2xl lg:text-3xl font-bold text-black mb-8 text-center">Track 2</h3>
+            
+            <div className="space-y-4">
+              {/* Schedule Card - Track 2 - 13:30 */}
+              <div className="bg-white border-2 border-black rounded-lg hover:shadow-lg transition-shadow">
+                <div className="flex flex-col md:grid md:grid-cols-[120px_140px_1fr_1fr] gap-4 p-4 md:p-6">
+                  <div className="md:hidden flex items-center gap-3">
+                    <div className="text-gray-900 font-bold text-lg">13:30 <span className="text-gray-400">(NYC)</span></div>
+                    <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
+                  </div>
+                  <div className="hidden md:block">
+                    <div className="text-gray-900 font-bold text-lg">13:30 <span className="text-gray-400">(NYC)</span></div>
+                  </div>
+                  <div className="hidden md:block">
+                    <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
+                  </div>
+                  <div>
+                    <div className="hero-title text-gray-700 text-lg mb-3 md:mb-0">How to move from using AI tools to running an AI-native company in practice.</div>
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <img src="/seva_ustinov.jpeg" alt="Seva Ustinov" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
+                      <span className="text-gray-900">Seva Ustinov, Founder</span>
+                      <img src="/plurio.png" alt="Plurio" className="h-5" onError={handleImageError} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Schedule Card - Track 2 - 14:10 */}
+              <div className="bg-white border-2 border-black rounded-lg hover:shadow-lg transition-shadow">
+                <div className="flex flex-col md:grid md:grid-cols-[120px_140px_1fr_1fr] gap-4 p-4 md:p-6">
+                  <div className="md:hidden flex items-center gap-3">
+                    <div className="text-gray-900 font-bold text-lg">14:10 <span className="text-gray-400">(NYC)</span></div>
+                    <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
+                  </div>
+                  <div className="hidden md:block">
+                    <div className="text-gray-900 font-bold text-lg">14:10 <span className="text-gray-400">(NYC)</span></div>
+                  </div>
+                  <div className="hidden md:block">
+                    <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
+                  </div>
+                  <div>
+                    <div className="hero-title text-gray-700 text-lg mb-3 md:mb-0">2026 AI and Agentic Automation Trends</div>
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <img src="/boris_krumrey.jpeg" alt="Boris Krumrey" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
+                      <span className="text-gray-900">Boris Krumrey, VP Automation</span>
+                      <img src="/uipath.png" alt="UiPath" className="h-5" onError={handleImageError} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Schedule Card - Track 2 - 14:25 */}
+              <div className="bg-white border-2 border-black rounded-lg hover:shadow-lg transition-shadow">
+                <div className="flex flex-col md:grid md:grid-cols-[120px_140px_1fr_1fr] gap-4 p-4 md:p-6">
+                  <div className="md:hidden flex items-center gap-3">
+                    <div className="text-gray-900 font-bold text-lg">14:25 <span className="text-gray-400">(NYC)</span></div>
+                    <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
+                  </div>
+                  <div className="hidden md:block">
+                    <div className="text-gray-900 font-bold text-lg">14:25 <span className="text-gray-400">(NYC)</span></div>
+                  </div>
+                  <div className="hidden md:block">
+                    <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
+                  </div>
+                  <div>
+                    <div className="hero-title text-gray-700 text-lg mb-3 md:mb-0">How to Build and Scale AI Skills Across the Enterprise</div>
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <img src="/Angela_Elle_Sun.jpeg" alt="Angela Elle Sun" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
+                      <span className="text-gray-900">Angela Elle Sun, AI Adoption Lead</span>
+                      <img src="/microsoft-logo.png" alt="Microsoft" className="h-5" onError={handleImageError} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Schedule Card - Track 2 - 14:40 */}
+              <div className="bg-white border-2 border-black rounded-lg hover:shadow-lg transition-shadow">
+                <div className="flex flex-col md:grid md:grid-cols-[120px_140px_1fr_1fr] gap-4 p-4 md:p-6">
+                  <div className="md:hidden flex items-center gap-3">
+                    <div className="text-gray-900 font-bold text-lg">14:40 <span className="text-gray-400">(NYC)</span></div>
+                    <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
+                  </div>
+                  <div className="hidden md:block">
+                    <div className="text-gray-900 font-bold text-lg">14:40 <span className="text-gray-400">(NYC)</span></div>
+                  </div>
+                  <div className="hidden md:block">
+                    <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
+                  </div>
+                  <div>
+                    <div className="hero-title text-gray-700 text-lg mb-3 md:mb-0">Product Managers - do we need them anymore?</div>
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <img src="/amandeep_khurana.jpeg" alt="Amandeep Khurana" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
+                      <span className="text-gray-900">Amandeep Khurana, Product Manager</span>
+                      <img src="/aws.png" alt="AWS" className="h-5" onError={handleImageError} />
+                    </div>
                   </div>
                 </div>
               </div>
