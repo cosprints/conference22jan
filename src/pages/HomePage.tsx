@@ -870,7 +870,7 @@ function HomePage() {
                   </span>
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2">Pawel Huryn</h3>
-                <p className="text-gray-400 text-sm italic">Runs the #1 AI & PM newsletter, plus courses and step-by-step playbooks for AI PMs—trusted by 127K+ and growing.</p>
+                <p className="text-gray-400 text-sm italic">Runs the #1 AI & Product Management newsletter, plus courses and step-by-step playbooks for AI PMs—trusted by 127K+ and growing.</p>
               </div>
             </div>
 
@@ -1013,6 +1013,26 @@ function HomePage() {
                 <p className="text-gray-400 text-sm italic">Leading research on how AI affects our cognition, behavior, and society at The AI Pulse</p>
               </div>
             </div>
+
+            <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
+              <div className="relative h-64 w-full bg-gradient-to-br from-violet-400 to-purple-600">
+                <img
+                  src="/aakash_gupta.jpg"
+                  alt="Aakash Gupta"
+                  className="w-full h-full object-cover"
+                  loading="lazy" onError={handleImageError} />
+              </div>
+              <div className="px-4 py-6">
+                <div className="mb-3 flex flex-wrap items-center gap-2">
+                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">Founder</span>
+                  <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
+                    <span className="text-gray-900 text-xs font-medium px-2">Product Growth</span>
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-white mb-2">Aakash Gupta</h3>
+                <p className="text-gray-400 text-sm italic">He is a former VP of Product at a Unicorn who now writes one of the most actionable newsletters for product managers, product leaders, and aspiring PMs. He focuses on product growth, product-led growth (PLG), and scaling B2B SaaS through the product itself.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -1047,7 +1067,7 @@ function HomePage() {
                     <div className="flex items-center gap-2">
                       <img src="/co-hosts_max_pog.jpg" alt="Max Pog" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
                       <span className="text-gray-900">Max Pog, Co-Host</span>
-                      <img src="/csprints_inverted_copy.png" alt="Community Sprints" className="h-5" onError={handleImageError} />
+                      <img src="/csprints.png" alt="Community Sprints" className="h-5" onError={handleImageError} />
                     </div>
                     <div className="flex items-center gap-2">
                       <img src="/co-hosts_veremeyenko.jpg" alt="Alex Veremeyenko" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
@@ -1058,6 +1078,11 @@ function HomePage() {
                       <img src="/huryn_copy.jpg" alt="Pawel Huryn" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
                       <span className="text-gray-900">Pawel Huryn, CEO</span>
                       <img src="/product-compass.png" alt="The Product Compass" className="h-5" onError={handleImageError} />
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <img src="/aakash_gupta.jpg" alt="Aakash Gupta" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
+                      <span className="text-gray-900">Aakash Gupta, Founder</span>
+                      <span className="text-gray-700 text-xs font-medium">Product Growth</span>
                     </div>
                   </div>
                 </div>
