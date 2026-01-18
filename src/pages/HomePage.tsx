@@ -1861,7 +1861,7 @@ function HomePage() {
                     <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
                   </div>
                   <div>
-                    <div className="hero-title text-gray-700 text-lg mb-3 md:mb-0">Product Managers - do we need them anymore?</div>
+                    <div className="hero-title text-gray-700 text-lg mb-3 md:mb-0">Product Managers — do we need them anymore?</div>
                   </div>
                   <div>
                     <div className="flex items-center gap-2">
@@ -2169,26 +2169,8 @@ function HomePage() {
               </div>
               <div className="flex items-center justify-center p-4 rounded-xl">
                 <img
-                  src="/mind-the-product.png"
-                  alt="Mind the Product"
-                  className="w-full h-16 object-contain rounded-md" onError={handleImageError} />
-              </div>
-              <div className="flex items-center justify-center p-4 rounded-xl">
-                <img
                   src="/fundingstack.png"
                   alt="Funding Stack"
-                  className="w-full h-16 object-contain rounded-md" onError={handleImageError} />
-              </div>
-              <div className="flex items-center justify-center p-4 rounded-xl">
-                <img
-                  src="/herts.png"
-                  alt="Herts"
-                  className="w-full h-16 object-contain rounded-md" onError={handleImageError} />
-              </div>
-              <div className="flex items-center justify-center p-4 rounded-xl">
-                <img
-                  src="/prettyagile.png"
-                  alt="Pretty Agile"
                   className="w-full h-16 object-contain rounded-md" onError={handleImageError} />
               </div>
               <div className="flex items-center justify-center p-4 rounded-xl">
@@ -2211,32 +2193,14 @@ function HomePage() {
               </div>
               <div className="flex items-center justify-center p-4 rounded-xl">
                 <img
-                  src="/kwame.png"
-                  alt="Kwame"
-                  className="w-full h-16 object-contain rounded-md" onError={handleImageError} />
-              </div>
-              <div className="flex items-center justify-center p-4 rounded-xl">
-                <img
                   src="/davidj.substack.png"
                   alt="David J Substack"
                   className="w-full h-16 object-contain rounded-md" onError={handleImageError} />
               </div>
               <div className="flex items-center justify-center p-4 rounded-xl">
                 <img
-                  src="/menwish.png"
-                  alt="Menwish"
-                  className="w-full h-16 object-contain rounded-md" onError={handleImageError} />
-              </div>
-              <div className="flex items-center justify-center p-4 rounded-xl">
-                <img
                   src="/the-automated.png"
                   alt="The Automated"
-                  className="w-full h-16 object-contain rounded-md" onError={handleImageError} />
-              </div>
-              <div className="flex items-center justify-center p-4 rounded-xl">
-                <img
-                  src="/ufeed.png"
-                  alt="Ufeed"
                   className="w-full h-16 object-contain rounded-md" onError={handleImageError} />
               </div>
             </div>
