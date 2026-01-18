@@ -1187,8 +1187,8 @@ function HomePage() {
           </div>
 
           <div className="flex justify-center gap-4 mb-8">
-            <a href="#track1" className="text-purple-600 font-medium transition-colors border-b-2 border-purple-600 pb-2">Track 1</a>
-            <a href="#track2" className="text-black hover:text-purple-600 font-medium transition-colors border-b-2 border-transparent hover:border-purple-600 pb-2">Track 2</a>
+            <button onClick={() => scrollToSection('track1')} className="text-purple-600 font-medium transition-colors border-b-2 border-purple-600 pb-2">Track 1</button>
+            <button onClick={() => scrollToSection('track2')} className="text-black hover:text-purple-600 font-medium transition-colors border-b-2 border-transparent hover:border-purple-600 pb-2">Track 2</button>
           </div>
 
           <div id="track1" className="space-y-4">
@@ -1735,11 +1735,11 @@ function HomePage() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center gap-4 mb-8">
-            <a href="#track2" className="text-purple-600 font-medium transition-colors border-b-2 border-purple-600 pb-2">Track 2</a>
-            <a href="#track1" className="text-black hover:text-purple-600 font-medium transition-colors border-b-2 border-transparent hover:border-purple-600 pb-2">Track 1</a>
+          <div className="flex justify-center gap-4 mt-12 mb-4">
+            <button onClick={() => scrollToSection('track2')} className="text-purple-600 font-medium transition-colors border-b-2 border-purple-600 pb-2">Track 2</button>
+            <button onClick={() => scrollToSection('track1')} className="text-black hover:text-purple-600 font-medium transition-colors border-b-2 border-transparent hover:border-purple-600 pb-2">Track 1</button>
           </div>
-          <div id="track2" className="mt-16">
+          <div id="track2" className="mt-4">
             <div className="space-y-4">
               {/* Schedule Card - Track 2 - 13:05 */}
               <div className="bg-white border-2 border-black rounded-lg hover:shadow-lg transition-shadow">
