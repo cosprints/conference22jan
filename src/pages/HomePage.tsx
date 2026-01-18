@@ -517,7 +517,7 @@ function HomePage() {
                 Actionable AI Workflows & Use Cases
               </h3>
               <p className="text-gray-700 leading-relaxed text-sm">
-                Real workflows from practitioners who use AI daily at companies like Microsoft, Google AI, DoorDash and Miro — not theory
+                Real workflows from practitioners who use AI daily at companies like DoorDash and Techstars — not theory
               </p>
             </div>
 
@@ -716,22 +716,22 @@ function HomePage() {
             </div>
 
             <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
-              <div className="relative h-64 w-full bg-gradient-to-br from-blue-400 to-indigo-600">
+              <div className="relative h-64 w-full bg-gradient-to-br from-purple-400 to-pink-600">
                 <img
-                  src="/Angela_Elle_Sun.jpeg"
-                  alt="Angela Elle Sun"
+                  src="/gupta.jpg"
+                  alt="Pallavi Gupta"
                   className="w-full h-full object-cover"
                   loading="lazy" onError={handleImageError} />
               </div>
               <div className="px-4 py-6">
                 <div className="mb-3 flex flex-wrap items-center gap-2">
-                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">AI Adoption Lead</span>
+                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">Product Manager</span>
                   <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
                     <img src="/microsoft-logo.png" alt="Microsoft" className="h-5" onError={handleImageError} />
                   </span>
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2">Angela Elle Sun</h3>
-                <p className="text-gray-400 text-sm italic">Expert on all things related to AI Adoption in Enterprise, from leading internal AI adoption programs internally at Microsoft to founding 'Enterprise AI Enabled', a private network of AI Enablement Executives across 40+ F500s.</p>
+                <h3 className="text-lg font-bold text-white mb-2">Pallavi Gupta</h3>
+                <p className="text-gray-400 text-sm italic">Leads AI and analytics product strategy at Microsoft, driving innovation across Bing Search and AI capabilities.</p>
               </div>
             </div>
 
