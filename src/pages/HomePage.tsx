@@ -1187,7 +1187,7 @@ function HomePage() {
           </div>
 
           <div className="flex justify-center gap-4 mb-8">
-            <a href="#track1" className="text-black hover:text-purple-600 font-medium transition-colors border-b-2 border-transparent hover:border-purple-600 pb-2">Track 1</a>
+            <a href="#track1" className="text-purple-600 font-medium transition-colors border-b-2 border-purple-600 pb-2">Track 1</a>
             <a href="#track2" className="text-black hover:text-purple-600 font-medium transition-colors border-b-2 border-transparent hover:border-purple-600 pb-2">Track 2</a>
           </div>
 
@@ -1735,11 +1735,38 @@ function HomePage() {
               </div>
             </div>
           </div>
-
+          <div className="flex justify-center gap-4 mb-8">
+            <a href="#track2" className="text-purple-600 font-medium transition-colors border-b-2 border-purple-600 pb-2">Track 2</a>
+            <a href="#track1" className="text-black hover:text-purple-600 font-medium transition-colors border-b-2 border-transparent hover:border-purple-600 pb-2">Track 1</a>
+          </div>
           <div id="track2" className="mt-16">
-            <h3 className="hero-title text-2xl lg:text-3xl font-bold text-black mb-8 text-center">Track 2</h3>
-            
             <div className="space-y-4">
+              {/* Schedule Card - Track 2 - 13:05 */}
+              <div className="bg-white border-2 border-black rounded-lg hover:shadow-lg transition-shadow">
+                <div className="flex flex-col md:grid md:grid-cols-[120px_140px_1fr_1fr] gap-4 p-4 md:p-6">
+                  <div className="md:hidden flex items-center gap-3">
+                    <div className="text-gray-900 font-bold text-lg">13:05 <span className="text-gray-400">(NYC)</span></div>
+                    <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Workshop</span>
+                  </div>
+                  <div className="hidden md:block">
+                    <div className="text-gray-900 font-bold text-lg">13:05 <span className="text-gray-400">(NYC)</span></div>
+                  </div>
+                  <div className="hidden md:block">
+                    <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Workshop</span>
+                  </div>
+                  <div>
+                    <div className="hero-title text-gray-700 text-lg mb-3 md:mb-0">Multi-agent decision board</div>
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <img src="/tomas-dostal-freire.jpg" alt="Tomás Dostal Freire" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
+                      <span className="text-gray-900">Tomás Dostal Freire, CIO</span>
+                      <img src="/miro-logo.png" alt="Miro" className="h-5" onError={handleImageError} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               {/* Schedule Card - Track 2 - 13:30 */}
               <div className="bg-white border-2 border-black rounded-lg hover:shadow-lg transition-shadow">
                 <div className="flex flex-col md:grid md:grid-cols-[120px_140px_1fr_1fr] gap-4 p-4 md:p-6">
