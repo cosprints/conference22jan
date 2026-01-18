@@ -1219,7 +1219,7 @@ function HomePage() {
                     </div>
                     <div className="flex items-center gap-2">
                       <img src="/co-hosts_robert-youssef.jpg" alt="Robert Youssef" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
-                      <span className="text-gray-900">Robert Youssef, Co-ounder</span>
+                      <span className="text-gray-900">Robert Youssef, Co-Founder</span>
                       <img src="/veremeyenko_company_logo.png" alt="God of Prompt" className="h-5" onError={handleImageError} />
                     </div>
                     <div className="flex items-center gap-2">
