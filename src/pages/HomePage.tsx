@@ -517,7 +517,7 @@ function HomePage() {
                 Actionable AI Workflows & Use Cases
               </h3>
               <p className="text-gray-700 leading-relaxed text-sm">
-                Real workflows from practitioners who use AI daily at companies like DoorDash and Techstars — not theory
+                Real workflows from practitioners who use AI daily at companies like Microsoft, Google AI, DoorDash and Miro — not theory
               </p>
             </div>
 
@@ -716,44 +716,46 @@ function HomePage() {
             </div>
 
             <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
-              <div className="relative h-64 w-full bg-gradient-to-br from-purple-400 to-pink-600">
+              <div className="relative h-64 w-full bg-gradient-to-br from-blue-400 to-indigo-600">
                 <img
-                  src="/gupta.jpg"
-                  alt="Pallavi Gupta"
+                  src="/Angela_Elle_Sun.jpeg"
+                  alt="Angela Elle Sun"
                   className="w-full h-full object-cover"
                   loading="lazy" onError={handleImageError} />
               </div>
               <div className="px-4 py-6">
                 <div className="mb-3 flex flex-wrap items-center gap-2">
-                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">Product Manager</span>
+                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">AI Adoption Lead</span>
                   <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
                     <img src="/microsoft-logo.png" alt="Microsoft" className="h-5" onError={handleImageError} />
                   </span>
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2">Pallavi Gupta</h3>
-                <p className="text-gray-400 text-sm italic">Leads AI and analytics product strategy at Microsoft, driving innovation across Bing Search and AI capabilities.</p>
+                <h3 className="text-lg font-bold text-white mb-2">Angela Elle Sun</h3>
+                <p className="text-gray-400 text-sm italic">Expert on all things related to AI Adoption in Enterprise, from leading internal AI adoption programs internally at Microsoft to founding 'Enterprise AI Enabled', a private network of AI Enablement Executives across 40+ F500s.</p>
               </div>
             </div>
 
+            
             <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
-              <div className="relative h-64 w-full bg-gradient-to-br from-indigo-400 to-blue-600">
+              <div className="relative h-64 w-full bg-gradient-to-br from-pink-400 to-rose-600">
                 <img
-                  src="/misti-cain_.jpg"
-                  alt="Misti Cain"
+                  src="/nick_golos.jpg"
+                  alt="Nick Golos"
                   className="w-full h-full object-cover"
                   loading="lazy" onError={handleImageError} />
               </div>
               <div className="px-4 py-6">
                 <div className="mb-3 flex flex-wrap items-center gap-2">
-                  <span className="inline-block bg-gray-600 text-white px-3 py-2 rounded-full text-sm font-medium">Managing Director</span>
+                  <span className="inline-block bg-gray-600 text-white px-3 py-2 rounded-full text-sm font-medium">Growth manager</span>
                   <span className="inline-flex items-center bg-white px-3 py-2 rounded-full">
-                    <img src="/techstars-logo-vector.png" alt="Techstars" className="h-5" onError={handleImageError} />
+                    <img src="/fluently_.png" alt="Fluently" className="h-5" onError={handleImageError} />
                   </span>
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2">Misti Cain</h3>
-                <p className="text-gray-400 text-sm italic">Has helped portfolio startups raise over $30 million and achieve two successful exits. Recipient of the prestigious #GiveFirst Award (2022) and voted All-Star Mentor (2019).</p>
+                <h3 className="text-lg font-bold text-white mb-2">Nick Golos</h3>
+                <p className="text-gray-400 text-sm italic">Uses AI to create viral LinkedIn content with over 1M impressions per post</p>
               </div>
             </div>
+        
 
             <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="relative h-64 w-full bg-gradient-to-br from-yellow-400 to-amber-600">
@@ -796,42 +798,42 @@ function HomePage() {
             </div>
 
             <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
-              <div className="relative h-64 w-full bg-gradient-to-br from-blue-400 to-indigo-600">
+              <div className="relative h-64 w-full bg-gradient-to-br from-purple-400 to-pink-600">
                 <img
-                  src="/Angela_Elle_Sun.jpeg"
-                  alt="Angela Elle Sun"
+                  src="/gupta.jpg"
+                  alt="Pallavi Gupta"
                   className="w-full h-full object-cover"
                   loading="lazy" onError={handleImageError} />
               </div>
               <div className="px-4 py-6">
                 <div className="mb-3 flex flex-wrap items-center gap-2">
-                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">AI Adoption Lead</span>
+                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">Product Manager</span>
                   <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
                     <img src="/microsoft-logo.png" alt="Microsoft" className="h-5" onError={handleImageError} />
                   </span>
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2">Angela Elle Sun</h3>
-                <p className="text-gray-400 text-sm italic">Expert on all things related to AI Adoption in Enterprise, from leading internal AI adoption programs internally at Microsoft to founding 'Enterprise AI Enabled', a private network of AI Enablement Executives across 40+ F500s.</p>
+                <h3 className="text-lg font-bold text-white mb-2">Pallavi Gupta</h3>
+                <p className="text-gray-400 text-sm italic">Leads AI and analytics product strategy at Microsoft, driving innovation across Bing Search and AI capabilities.</p>
               </div>
             </div>
 
             <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
-              <div className="relative h-64 w-full bg-gradient-to-br from-pink-400 to-rose-600">
+              <div className="relative h-64 w-full bg-gradient-to-br from-indigo-400 to-blue-600">
                 <img
-                  src="/nick_golos.jpg"
-                  alt="Nick Golos"
+                  src="/misti-cain_.jpg"
+                  alt="Misti Cain"
                   className="w-full h-full object-cover"
                   loading="lazy" onError={handleImageError} />
               </div>
               <div className="px-4 py-6">
                 <div className="mb-3 flex flex-wrap items-center gap-2">
-                  <span className="inline-block bg-gray-600 text-white px-3 py-2 rounded-full text-sm font-medium">Growth manager</span>
+                  <span className="inline-block bg-gray-600 text-white px-3 py-2 rounded-full text-sm font-medium">Managing Director</span>
                   <span className="inline-flex items-center bg-white px-3 py-2 rounded-full">
-                    <img src="/fluently_.png" alt="Fluently" className="h-5" onError={handleImageError} />
+                    <img src="/techstars-logo-vector.png" alt="Techstars" className="h-5" onError={handleImageError} />
                   </span>
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2">Nick Golos</h3>
-                <p className="text-gray-400 text-sm italic">Uses AI to create viral LinkedIn content with over 1M impressions per post</p>
+                <h3 className="text-lg font-bold text-white mb-2">Misti Cain</h3>
+                <p className="text-gray-400 text-sm italic">Has helped portfolio startups raise over $30 million and achieve two successful exits. Recipient of the prestigious #GiveFirst Award (2022) and voted All-Star Mentor (2019).</p>
               </div>
             </div>
 
@@ -1188,7 +1190,7 @@ function HomePage() {
 
           <div className="flex justify-center gap-4 mb-8">
             <button onClick={() => scrollToSection('track1')} className="text-purple-600 font-medium transition-colors border-b-2 border-purple-600 pb-2">Track 1</button>
-            <button onClick={() => scrollToSection('track2')} className="text-black hover:text-purple-600 font-medium transition-colors border-b-2 border-transparent hover:border-purple-600 pb-2">Track 2</button>
+            <button onClick={() => scrollToSection('track2')} className="text-black hover:text-purple-600 font-medium transition-colors border-b-2 border-transparent hover:border-purple-600 pb-2">Track 2 (Breakout Room)</button>
           </div>
 
           <div id="track1" className="space-y-4">
@@ -1216,8 +1218,8 @@ function HomePage() {
                       <img src="/csprints.png" alt="Community Sprints" className="h-5" onError={handleImageError} />
                     </div>
                     <div className="flex items-center gap-2">
-                      <img src="/co-hosts_veremeyenko.jpg" alt="Alex Veremeyenko" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
-                      <span className="text-gray-900">Alex Veremeyenko, Founder</span>
+                      <img src="/co-hosts_robert-youssef.jpg" alt="Robert Youssef" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
+                      <span className="text-gray-900">Robert Youssef, Co-ounder</span>
                       <img src="/veremeyenko_company_logo.png" alt="God of Prompt" className="h-5" onError={handleImageError} />
                     </div>
                     <div className="flex items-center gap-2">
@@ -1736,7 +1738,7 @@ function HomePage() {
             </div>
           </div>
           <div className="flex justify-center gap-4 mt-12 mb-4">
-            <button onClick={() => scrollToSection('track2')} className="text-purple-600 font-medium transition-colors border-b-2 border-purple-600 pb-2">Track 2</button>
+            <button onClick={() => scrollToSection('track2')} className="text-purple-600 font-medium transition-colors border-b-2 border-purple-600 pb-2">Track 2 (Breakout Room)</button>
             <button onClick={() => scrollToSection('track1')} className="text-black hover:text-purple-600 font-medium transition-colors border-b-2 border-transparent hover:border-purple-600 pb-2">Track 1</button>
           </div>
           <div id="track2" className="mt-4">
@@ -1945,7 +1947,7 @@ function HomePage() {
                   The Product Compass
                 </h4>
                 <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                  The #1 AI & PM Newsletter
+                  The #1 AI & Product Management Newsletter
                 </p>
                 <div className="flex flex-col items-center mt-2">
                   <img
