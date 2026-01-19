@@ -23,7 +23,11 @@ const PARTNER_POPUP_CONTENT: Record<string, string> = {
   '14': 'ChatGPT — Most Used Words',
   '15': 'Tweet Generator Mega-Prompt',
   '16': 'Midjourney Mastery Guide',
-  '17': 'Prompt Engineering Guide'
+  '17': 'Prompt Engineering Guide',
+  '62': '10 Ideas How You Can Start Earning with AI in 2026',
+  '63': 'How to make viral posts on LinkedIn and get 16M+ impressions in 3 months?',
+  '64': 'AI revenue-growth playbook: 30 High-ROI AI actions to scale without hiring'
+  '52': 'Vibe Coding book (PDF)'
 };
 
 function HomePage() {
