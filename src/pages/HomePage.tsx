@@ -26,7 +26,7 @@ const PARTNER_POPUP_CONTENT: Record<string, string> = {
   '17': 'Prompt Engineering Guide',
   '62': '10 Ideas How You Can Start Earning with AI in 2026',
   '63': 'How to make viral posts on LinkedIn and get 16M+ impressions in 3 months?',
-  '64': 'AI revenue-growth playbook: 30 High-ROI AI actions to scale without hiring'
+  '64': 'AI revenue-growth playbook: 30 High-ROI AI actions to scale without hiring',
   '52': 'Vibe Coding book (PDF)'
 };
 
@@ -224,7 +224,15 @@ function HomePage() {
     
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      // Account for fixed banner (36px) and sticky header (64px) + some padding
+      const offset = 120;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
     }
   };
 
@@ -237,7 +245,15 @@ function HomePage() {
         if (element) {
           // Small delay to ensure page is fully loaded
           setTimeout(() => {
-            element.scrollIntoView({ behavior: 'smooth' });
+            // Account for fixed banner (36px) and sticky header (64px) + some padding
+            const offset = 120;
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth'
+            });
           }, 100);
         }
       }
