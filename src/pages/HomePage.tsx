@@ -691,7 +691,7 @@ function HomePage() {
                   </span>
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2">Dima Zborovskiy</h3>
-                <p className="text-gray-400 text-sm italic">Integrated AI agents into real workflows, achieving a 3× ROI boost</p>
+                <p className="text-gray-400 text-sm italic">Integrated AI agents into real workflows, achieving a 3× ROI increase. Leads the integration of multi-agent AI systems to drive product innovation, accelerate team productivity, and deliver measurable business impact.</p>
               </div>
             </div>
 
@@ -2228,6 +2228,21 @@ function HomePage() {
                   src="/multiplyers.png"
                   alt="Multiplyers VC"
                   className="w-full h-16 object-contain rounded-md" onError={handleImageError} />
+              </div>
+            </div>
+
+            <div className="mt-12 max-w-4xl mx-auto">
+              <div className="bg-white rounded-2xl p-5 shadow-lg border border-gray-200">
+                <p className="text-base text-gray-700 leading-relaxed text-center">
+                  If you have <span className="font-bold text-black">1K+, 10K+ or 100K+ email subscribers</span>, let me know at{' '}
+                  <a
+                    href="mailto:maxpog@inniches.com"
+                    className="font-bold text-blue-600 hover:text-blue-800 transition-colors"
+                  >
+                    maxpog@inniches.com
+                  </a>
+                  , and I'll share our benefits for media partners.
+                </p>
               </div>
             </div>
           </div>
