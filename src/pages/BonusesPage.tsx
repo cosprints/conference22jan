@@ -174,14 +174,14 @@ function BonusesPage() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-white rounded-2xl p-5 shadow-lg border border-gray-200">
               <p className="text-base text-gray-700 leading-relaxed text-center">
-                If you have <span className="font-bold text-black">1K+ or 10K+ LP/GP/VC email subscribers</span>, let me know at{' '}
+                If you have <span className="font-bold text-black">1K+, 10K+ or 100K+ email subscribers</span>, let me know at{' '}
                 <a
-                  href="mailto:maxpog@pitchcalls.com"
+                  href="mailto:maxpog@inniches.com"
                   className="font-bold text-blue-600 hover:text-blue-800 transition-colors"
                 >
-                  maxpog@pitchcalls.com
+                  maxpog@inniches.com
                 </a>
-                {' '}and I'll share our media partner perks.
+                , and I'll share our benefits for media partners.
               </p>
             </div>
           </div>

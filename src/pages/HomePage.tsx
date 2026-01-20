@@ -793,7 +793,7 @@ function HomePage() {
                   </span>
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2">Amandeep Khurana</h3>
-                <p className="text-gray-400 text-sm italic">At AWS, he leads product initiatives for Generative AI–based developer tools, where he created the concept and vision for kiro.dev, an AI-first IDE for agentic software development, and led product-led growth (PLG) efforts for Amazon Q Developer.</p>
+                <p className="text-gray-400 text-sm italic">He leads product efforts for AWS AgentCore. He was also the founding PM for Kiro, an agentic IDE, and led the build out of the PLG motion for Amazon Q. Amandeep is also a startup founder and his company exited to Databricks.</p>
               </div>
             </div>
 
@@ -1881,7 +1881,7 @@ function HomePage() {
                     <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
                   </div>
                   <div>
-                    <div className="hero-title text-gray-700 text-lg mb-3 md:mb-0">Product Managers — do we need them anymore?</div>
+                    <div className="hero-title text-gray-700 text-lg mb-3 md:mb-0">Did AI just kill the PM job?</div>
                   </div>
                   <div>
                     <div className="flex items-center gap-2">
@@ -2221,6 +2221,12 @@ function HomePage() {
                 <img
                   src="/the-automated.png"
                   alt="The Automated"
+                  className="w-full h-16 object-contain rounded-md" onError={handleImageError} />
+              </div>
+              <div className="flex items-center justify-center p-4 rounded-xl">
+                <img
+                  src="/multiplyers.png"
+                  alt="Multiplyers VC"
                   className="w-full h-16 object-contain rounded-md" onError={handleImageError} />
               </div>
             </div>
