@@ -772,7 +772,7 @@ function HomePage() {
                   </span>
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2">Nick Golos</h3>
-                <p className="text-gray-400 text-sm italic">Uses AI to create viral LinkedIn content with over 1M impressions per post</p>
+                <p className="text-gray-400 text-sm italic">He grew 2 LinkedIn accounts to 20M+ views in just 4 months creating viral content with over 1M impressions per post. Nick is a Y Combinator alumnus and frequently speaks about building AI-native products and product-led growth.</p>
               </div>
             </div>
         
@@ -953,7 +953,7 @@ function HomePage() {
                   </span>
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2">Liam Dubson</h3>
-                <p className="text-gray-400 text-sm italic">Leader of Spark Founders, a dynamic platform empowering entrepreneurs to connect with the right co-founders and access the resources needed to scale high-impact ventures. Creator of the Relationship Intelligence Operating System.</p>
+                <p className="text-gray-400 text-sm italic">The founder and CEO of encountr.ai, an AI-driven relationship intelligence platform designed to decode and enhance human connection through voice science and emotional data.</p>
               </div>
             </div>
 
