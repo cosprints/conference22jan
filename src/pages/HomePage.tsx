@@ -1213,7 +1213,7 @@ function HomePage() {
                   </span>
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2">Benjamin Joffe</h3>
-                <p className="text-gray-400 text-sm italic"></p>
+                <p className="text-gray-400 text-sm italic">He is Senior Partner at SOSV, a global early stage fund focused on deep tech. He has built a broad knowledge in climate tech and health tech, and curate / co-produce the SOSV Climate Tech Summit.</p>
               </div>
             </div>
 
@@ -1233,7 +1233,7 @@ function HomePage() {
                   </span>
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2">Tracy Mills</h3>
-                <p className="text-gray-400 text-sm italic"></p>
+                <p className="text-gray-400 text-sm italic">She works with Federal entities to solve their AI & IT challenges providing mission capabilities efficiently and effectively. She is able to understand Federal Systems Integrators and public sector business drivers and provide insights to the latest technology solutions.</p>
               </div>
             </div>
 
@@ -1253,7 +1253,7 @@ function HomePage() {
                   </span>
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2">Tanya Roosta</h3>
-                <p className="text-gray-400 text-sm italic"></p>
+                <p className="text-gray-400 text-sm italic">She is an AI executive leader with 15+ years of experience shaping enterprise-scale AI strategy, building high-performing applied science organizations, and delivering production-ready GenAI systems across Search, Personalization, and Conversational AI.</p>
               </div>
             </div>
           </div>
