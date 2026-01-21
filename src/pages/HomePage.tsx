@@ -64,7 +64,7 @@ function HomePage() {
       // Only show popup if partner has bonuses (exists in PARTNER_POPUP_CONTENT)
       const hasBonus = partnerParam in PARTNER_POPUP_CONTENT;
       if (hasBonus) {
-        setShowPartnerPopup(true);
+      setShowPartnerPopup(true);
       } else {
         // Explicitly ensure popup is not shown for partners without bonuses
         setShowPartnerPopup(false);
@@ -755,7 +755,7 @@ function HomePage() {
               </div>
             </div>
 
-            
+
             <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="relative h-64 w-full bg-gradient-to-br from-pink-400 to-rose-600">
                 <img
@@ -833,7 +833,7 @@ function HomePage() {
                   </span>
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2">Pallavi Gupta</h3>
-                <p className="text-gray-400 text-sm italic">Leads AI and analytics product strategy at Microsoft, driving innovation across Bing Search and AI capabilities.</p>
+                <p className="text-gray-400 text-sm italic">Leads AI and analytics product Titan at Microsoft, democratizing data and insights across Microsoft AI, Copilot and Windows.</p>
               </div>
             </div>
 
@@ -1018,26 +1018,6 @@ function HomePage() {
             </div>
 
             <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
-              <div className="relative h-64 w-full bg-gradient-to-br from-sky-400 to-blue-700">
-                <img
-                  src="/rohun-shroff.jpg"
-                  alt="Rohun Shroff"
-                  className="w-full h-full object-cover"
-                  loading="lazy" onError={handleImageError} />
-              </div>
-              <div className="px-4 py-6">
-                <div className="mb-3 flex flex-wrap items-center gap-2">
-                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">Co-Founder</span>
-                  <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
-                    <img src="/ai_pulse_logo.png" alt="The AI Pulse" className="h-5" onError={handleImageError} />
-                  </span>
-                </div>
-                <h3 className="text-lg font-bold text-white mb-2">Rohun Shroff</h3>
-                <p className="text-gray-400 text-sm italic">Leading research on how AI affects our cognition, behavior, and society at The AI Pulse</p>
-              </div>
-            </div>
-
-            <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="relative h-64 w-full bg-gradient-to-br from-violet-400 to-purple-600">
                 <img
                   src="/aakash_gupta.jpg"
@@ -1218,26 +1198,6 @@ function HomePage() {
             </div>
 
             <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
-              <div className="relative h-64 w-full bg-gradient-to-br from-slate-400 to-gray-600">
-                <img
-                  src="/tracy_mills.jpg"
-                  alt="Tracy Mills"
-                  className="w-full h-full object-cover"
-                  loading="lazy" onError={handleImageError} />
-              </div>
-              <div className="px-4 py-6">
-                <div className="mb-3 flex flex-wrap items-center gap-2">
-                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">CTO</span>
-                  <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
-                    <img src="/hewlett-packard enterprise.png" alt="Hewlett Packard Enterprise" className="h-5" onError={handleImageError} />
-                  </span>
-                </div>
-                <h3 className="text-lg font-bold text-white mb-2">Tracy Mills</h3>
-                <p className="text-gray-400 text-sm italic">She works with Federal entities to solve their AI & IT challenges providing mission capabilities efficiently and effectively. She is able to understand Federal Systems Integrators and public sector business drivers and provide insights to the latest technology solutions.</p>
-              </div>
-            </div>
-
-            <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="relative h-64 w-full bg-gradient-to-br from-orange-400 to-yellow-600">
                 <img
                   src="/tanya_roosta.jpg"
@@ -1254,6 +1214,46 @@ function HomePage() {
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2">Tanya Roosta</h3>
                 <p className="text-gray-400 text-sm italic">She is an AI executive leader with 15+ years of experience shaping enterprise-scale AI strategy, building high-performing applied science organizations, and delivering production-ready GenAI systems across Search, Personalization, and Conversational AI.</p>
+              </div>
+            </div>
+
+            <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
+              <div className="relative h-64 w-full bg-gradient-to-br from-blue-400 to-indigo-600">
+                <img
+                  src="/virginia_roberts.jpg"
+                  alt="Virginia Roberts"
+                  className="w-full h-full object-cover"
+                  loading="lazy" onError={handleImageError} />
+              </div>
+              <div className="px-4 py-6">
+                <div className="mb-3 flex flex-wrap items-center gap-2">
+                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">Cloud Trainer</span>
+                  <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
+                    <img src="/google.png" alt="Google" className="h-5" onError={handleImageError} />
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-white mb-2">Virginia Roberts</h3>
+                <p className="text-gray-400 text-sm italic">She is seasoned expert with 10+ years of cloud and AI experience, including as a trainer and program manager across many technical areas.</p>
+              </div>
+            </div>
+
+            <div className="bg-black rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
+              <div className="relative h-64 w-full bg-gradient-to-br from-purple-400 to-indigo-600">
+                <img
+                  src="/johann_nogueira.jpg"
+                  alt="Johann Nogueira"
+                  className="w-full h-full object-cover"
+                  loading="lazy" onError={handleImageError} />
+              </div>
+              <div className="px-4 py-6">
+                <div className="mb-3 flex flex-wrap items-center gap-2">
+                  <span className="inline-block bg-gray-600 text-white px-2 py-2 rounded-full text-sm font-medium">Director</span>
+                  <span className="inline-flex items-center bg-white px-2 py-2 rounded-full">
+                    <img src="/ai-tech-advisory.png" alt="AI Tech Advisory" className="h-5" onError={handleImageError} />
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-white mb-2">Johann Nogueira</h3>
+                <p className="text-gray-400 text-sm italic">An entrepreneur, tech investor, and AI innovator who helps business owners scale through systems, technology, and leverage.</p>
               </div>
             </div>
           </div>
@@ -1778,13 +1778,13 @@ function HomePage() {
                   <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
                 </div>
                 <div>
-                  <div className="hero-title text-gray-700 text-lg mb-3 md:mb-0">Should I use AI to automate this?</div>
+                  <div className="hero-title text-gray-700 text-lg mb-3 md:mb-0">Secret topic</div>
                 </div>
                 <div>
                   <div className="flex items-center gap-2">
-                    <img src="/rohun-shroff.jpg" alt="Rohun Shroff" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
-                    <span className="text-gray-900">Rohun Shroff, Co-Founder</span>
-                    <img src="/ai_pulse_logo.png" alt="The AI Pulse" className="h-5" onError={handleImageError} />
+                    <img src="/johann_nogueira.jpg" alt="Johann Nogueira" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
+                    <span className="text-gray-900">Johann Nogueira, Director</span>
+                    <img src="/ai-tech-advisory.png" alt="AI Tech Advisory" className="h-5" onError={handleImageError} />
                   </div>
                 </div>
               </div>
@@ -1900,6 +1900,32 @@ function HomePage() {
                 </div>
               </div>
 
+              {/* Schedule Card - Track 2 - 14:00 */}
+              <div className="bg-white border-2 border-black rounded-lg hover:shadow-lg transition-shadow">
+                <div className="flex flex-col md:grid md:grid-cols-[120px_140px_1fr_1fr] gap-4 p-4 md:p-6">
+                  <div className="md:hidden flex items-center gap-3">
+                    <div className="text-gray-900 font-bold text-lg">14:00 <span className="text-gray-400">(NYC)</span></div>
+                    <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
+                  </div>
+                  <div className="hidden md:block">
+                    <div className="text-gray-900 font-bold text-lg">14:00 <span className="text-gray-400">(NYC)</span></div>
+                  </div>
+                  <div className="hidden md:block">
+                    <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
+                  </div>
+                  <div>
+                    <div className="hero-title text-gray-700 text-lg mb-3 md:mb-0">Gen AI customisation</div>
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <img src="/virginia_roberts.jpg" alt="Virginia Roberts" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
+                      <span className="text-gray-900">Virginia Roberts, Cloud Trainer</span>
+                      <img src="/google.png" alt="Google" className="h-5" onError={handleImageError} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               {/* Schedule Card - Track 2 - 14:10 */}
               <div className="bg-white border-2 border-black rounded-lg hover:shadow-lg transition-shadow">
                 <div className="flex flex-col md:grid md:grid-cols-[120px_140px_1fr_1fr] gap-4 p-4 md:p-6">
@@ -1973,32 +1999,6 @@ function HomePage() {
                       <img src="/amandeep_khurana.jpeg" alt="Amandeep Khurana" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
                       <span className="text-gray-900">Amandeep Khurana, Product Manager</span>
                       <img src="/aws.png" alt="AWS" className="h-5" onError={handleImageError} />
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Schedule Card - Track 2 - 14:55 */}
-              <div className="bg-white border-2 border-black rounded-lg hover:shadow-lg transition-shadow">
-                <div className="flex flex-col md:grid md:grid-cols-[120px_140px_1fr_1fr] gap-4 p-4 md:p-6">
-                  <div className="md:hidden flex items-center gap-3">
-                    <div className="text-gray-900 font-bold text-lg">14:55 <span className="text-gray-400">(NYC)</span></div>
-                    <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
-                  </div>
-                  <div className="hidden md:block">
-                    <div className="text-gray-900 font-bold text-lg">14:55 <span className="text-gray-400">(NYC)</span></div>
-                  </div>
-                  <div className="hidden md:block">
-                    <span className="inline-block border border-black text-black bg-transparent px-3 py-1 rounded-full text-sm font-medium">Presentation</span>
-                  </div>
-                  <div>
-                    <div className="hero-title text-gray-700 text-lg mb-3 md:mb-0">Sovereign AI Factory and the components required to get to production</div>
-                  </div>
-                  <div>
-                    <div className="flex items-center gap-2">
-                      <img src="/tracy_mills.jpg" alt="Tracy Mills" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
-                      <span className="text-gray-900">Tracy Mills, CTO</span>
-                      <img src="/hewlett-packard enterprise.png" alt="Hewlett Packard Enterprise" className="h-5" onError={handleImageError} />
                     </div>
                   </div>
                 </div>
@@ -2338,6 +2338,12 @@ function HomePage() {
                 <img
                   src="/multiplyers.png"
                   alt="Multiplyers VC"
+                  className="w-full h-16 object-contain rounded-md" onError={handleImageError} />
+              </div>
+              <div className="flex items-center justify-center p-4 rounded-xl">
+                <img
+                  src="/aixup.png"
+                  alt="AixUp.ai"
                   className="w-full h-16 object-contain rounded-md" onError={handleImageError} />
               </div>
             </div>
