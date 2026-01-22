@@ -378,10 +378,10 @@ function HomePage() {
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center">
-            <h2 className="hero-title text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-8 drop-shadow-2xl">
+            <h2 className="hero-title text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-8 drop-shadow-2xl mt-8">
               The conference has ended — and it was amazing!
             </h2>
-            <p className="text-white text-xl md:text-2xl mb-6 drop-shadow-lg">
+            <p className="text-white text-2xl md:text-3xl lg:text-4xl mb-6 drop-shadow-lg">
               See you at our AI Bootcamp:{' '}
               <a
                 href="https://aibootcamp.cosprints.ai"
@@ -455,7 +455,7 @@ function HomePage() {
                 <a href={calendlyUrl} target="_blank" rel="noopener noreferrer" className="hidden levitate-button bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 hover:from-purple-700 hover:via-pink-600 hover:to-purple-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all inline-block shadow-lg hover:shadow-xl hover:scale-105">
                   [LIVE] Join now
                 </a>
-                <span className="absolute -top-3 -right-4 bg-gradient-to-r from-green-400 to-emerald-500 text-white px-6 py-2 rounded-full font-bold text-base shadow-lg transform rotate-12 z-10">
+                <span className="hidden absolute -top-3 -right-4 bg-gradient-to-r from-green-400 to-emerald-500 text-white px-6 py-2 rounded-full font-bold text-base shadow-lg transform rotate-12 z-10">
                   For free
                 </span>
               </div>
@@ -2067,7 +2067,7 @@ function HomePage() {
               >
                 [LIVE] Join now
               </a>
-              <span className="absolute -top-3 -right-4 bg-gradient-to-r from-green-400 to-emerald-500 text-white px-4 py-1.5 rounded-full font-bold text-sm shadow-lg transform rotate-12 z-10">
+              <span className="hidden absolute -top-3 -right-4 bg-gradient-to-r from-green-400 to-emerald-500 text-white px-4 py-1.5 rounded-full font-bold text-sm shadow-lg transform rotate-12 z-10">
                 FREE
               </span>
             </div>
@@ -2606,7 +2606,7 @@ function HomePage() {
                         >
                           [LIVE] Join now
                         </a>
-                        <span className="absolute -top-3 -right-4 bg-gradient-to-r from-green-400 to-emerald-500 text-white px-4 py-1.5 rounded-full font-bold text-sm shadow-lg transform rotate-12 z-10">
+                        <span className="hidden absolute -top-3 -right-4 bg-gradient-to-r from-green-400 to-emerald-500 text-white px-4 py-1.5 rounded-full font-bold text-sm shadow-lg transform rotate-12 z-10">
                           FREE
                         </span>
                       </div>
