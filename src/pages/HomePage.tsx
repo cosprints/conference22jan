@@ -816,7 +816,7 @@ function HomePage() {
                     <img src="/fluently_.png" alt="Fluently" className="h-5" onError={handleImageError} />
                   </span>
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2">Nick Golos</h3>
+                <h3 className="text-lg font-bold text-white mb-2">Nik Golos</h3>
                 <p className="text-gray-400 text-sm italic">He grew 2 LinkedIn accounts to 20M+ views in just 4 months creating viral content with over 1M impressions per post. Nick is a Y Combinator alumnus and frequently speaks about building AI-native products and product-led growth.</p>
               </div>
             </div>
@@ -1391,9 +1391,9 @@ function HomePage() {
                       <img src="/microsoft-logo.png" alt="Microsoft" className="h-5" onError={handleImageError} />
                     </div>
                     <div className="flex items-center gap-2">
-                      <img src="/tanya_roosta.jpg" alt="Tanya Roosta" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
-                      <span className="text-gray-900">Tanya Roosta, Science Manager</span>
-                      <img src="/amazon.png" alt="Amazon" className="h-5" onError={handleImageError} />
+                      <img src="/virginia_roberts.jpg" alt="Virginia Roberts" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
+                      <span className="text-gray-900">Virginia Roberts, Cloud Trainer</span>
+                      <img src="/google.png" alt="Google" className="h-5" onError={handleImageError} />
                     </div>
                     <span className="text-gray-600 italic ml-10">Moderator: Liam Dubson @ encountr</span>
                   </div>
@@ -1452,7 +1452,7 @@ function HomePage() {
                     </div>
                     <div className="flex items-center gap-2">
                       <img src="/nick_golos.jpg" alt="Nick Golos" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
-                      <span className="text-gray-900">Nick Golos, Growth manager</span>
+                      <span className="text-gray-900">Nik Golos, Growth manager</span>
                       <img src="/fluently_.png" alt="Fluently" className="h-5" onError={handleImageError} />
                     </div>
                     <div className="flex items-center gap-2">
@@ -1485,7 +1485,7 @@ function HomePage() {
                 <div>
                   <div className="flex items-center gap-2">
                     <img src="/nick_golos.jpg" alt="Nick Golos" className="w-8 h-8 rounded-full object-cover flex-shrink-0" onError={handleImageError} />
-                    <span className="text-gray-900">Nick Golos, Growth manager</span>
+                    <span className="text-gray-900">Nik Golos, Growth manager</span>
                     <img src="/fluently_.png" alt="Fluently" className="h-4" onError={handleImageError} />
                   </div>
                 </div>
