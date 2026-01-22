@@ -85,7 +85,7 @@ function Header() {
 
           {/* Actions */}
           <div className="flex items-center space-x-2 md:space-x-4">
-            <a href={calendlyUrl} target="_blank" rel="noopener noreferrer" className="hidden md:inline-block bg-black hover:bg-gray-800 text-white px-3 md:px-6 py-2 rounded-lg font-medium text-xs md:text-base transition-colors">
+            <a href={calendlyUrl} target="_blank" rel="noopener noreferrer" className="hidden bg-black hover:bg-gray-800 text-white px-3 md:px-6 py-2 rounded-lg font-medium text-xs md:text-base transition-colors">
               [LIVE] Join now
             </a>
 

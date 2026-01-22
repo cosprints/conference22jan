@@ -13,7 +13,7 @@ export function MobileRegisterButton({ calendlyUrl }: MobileRegisterButtonProps)
           href={calendlyUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="block w-full bg-black hover:bg-gray-800 text-white py-3 rounded-lg font-medium text-center transition-all shadow-2xl hover:shadow-3xl"
+          className="hidden block w-full bg-black hover:bg-gray-800 text-white py-3 rounded-lg font-medium text-center transition-all shadow-2xl hover:shadow-3xl"
           style={{ boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2)' }}
         >
           [LIVE] Join now
