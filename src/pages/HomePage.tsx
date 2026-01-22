@@ -378,19 +378,25 @@ function HomePage() {
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center">
-            <div className="inline-block mb-6">
-              <span className="inline-block bg-white/30 backdrop-blur-md text-white px-8 py-3 rounded-full font-bold text-base md:text-lg uppercase tracking-wider animate-pulse shadow-lg border-2 border-white/50">
-                🔴 LIVE
-              </span>
-            </div>
             <h2 className="hero-title text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-8 drop-shadow-2xl">
-              [LIVE] Conference is live now!
+              The conference has ended — and it was amazing!
             </h2>
+            <p className="text-white text-xl md:text-2xl mb-6 drop-shadow-lg">
+              See you at our AI Bootcamp:{' '}
+              <a
+                href="https://aibootcamp.cosprints.ai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-yellow-200 transition-colors"
+              >
+                https://aibootcamp.cosprints.ai
+              </a>
+            </p>
             <a
               href="https://us06web.zoom.us/j/3525170343?pwd=TDHUHddjFGvdPosaoaIwqdazfOeaS5.1"
               target="_blank"
               rel="noopener noreferrer"
-              className="live-button inline-block bg-white text-orange-600 px-10 py-5 md:px-16 md:py-6 rounded-2xl font-bold text-xl md:text-2xl transition-all shadow-2xl hover:shadow-3xl hover:scale-110 transform border-4 border-white/50"
+              className="live-button hidden inline-block bg-white text-orange-600 px-10 py-5 md:px-16 md:py-6 rounded-2xl font-bold text-xl md:text-2xl transition-all shadow-2xl hover:shadow-3xl hover:scale-110 transform border-4 border-white/50"
             >
               Join →
             </a>
@@ -446,7 +452,7 @@ function HomePage() {
               </ul>
 
               <div className="pt-4 relative inline-block">
-                <a href={calendlyUrl} target="_blank" rel="noopener noreferrer" className="levitate-button bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 hover:from-purple-700 hover:via-pink-600 hover:to-purple-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all inline-block shadow-lg hover:shadow-xl hover:scale-105">
+                <a href={calendlyUrl} target="_blank" rel="noopener noreferrer" className="hidden levitate-button bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 hover:from-purple-700 hover:via-pink-600 hover:to-purple-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all inline-block shadow-lg hover:shadow-xl hover:scale-105">
                   [LIVE] Join now
                 </a>
                 <span className="absolute -top-3 -right-4 bg-gradient-to-r from-green-400 to-emerald-500 text-white px-6 py-2 rounded-full font-bold text-base shadow-lg transform rotate-12 z-10">
@@ -661,7 +667,7 @@ function HomePage() {
                 href={calendlyUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-black text-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-gray-900 transition-colors"
+                className="hidden inline-block bg-black text-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-gray-900 transition-colors"
               >
                 [LIVE] Join now
               </a>
@@ -2057,7 +2063,7 @@ function HomePage() {
                 href={calendlyUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-12 py-5 rounded-xl font-bold text-xl transition-all shadow-lg hover:shadow-xl hover:scale-105"
+                className="hidden inline-block bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-12 py-5 rounded-xl font-bold text-xl transition-all shadow-lg hover:shadow-xl hover:scale-105"
               >
                 [LIVE] Join now
               </a>
@@ -2596,7 +2602,7 @@ function HomePage() {
                           href={calendlyUrl}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-block bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-12 py-5 rounded-xl font-bold text-xl transition-all shadow-lg hover:shadow-xl hover:scale-105"
+                          className="hidden inline-block bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-12 py-5 rounded-xl font-bold text-xl transition-all shadow-lg hover:shadow-xl hover:scale-105"
                         >
                           [LIVE] Join now
                         </a>
