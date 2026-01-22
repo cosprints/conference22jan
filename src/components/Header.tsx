@@ -13,40 +13,7 @@ function Header() {
 
   const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [calendlyUrl, setCalendlyUrl] = useState('https://calendly.com/maxpog/ai/');
-
-  useEffect(() => {
-    const getPartnerParam = () => {
-      const params = new URLSearchParams(window.location.search);
-      let partnerParam = params.get('partner');
-
-      if (!partnerParam) {
-        const searchStr = window.location.search.slice(1);
-        const match = searchStr.match(/^\d+/);
-        if (match) {
-          partnerParam = match[0];
-        }
-      }
-
-      return partnerParam;
-    };
-
-    const partnerParam = getPartnerParam();
-
-    const updateCalendlyUrl = () => {
-      const baseUrl = window.innerWidth > 650
-        ? 'https://calendly.com/maxpog/ai/2026-01-22T16:00:00+00:00?month=2026-01&date=2026-01-22'
-        : 'https://calendly.com/maxpog/ai/';
-
-      const urlWithUtm = partnerParam ? `${baseUrl}${baseUrl.includes('?') ? '&' : '?'}utm_source=${partnerParam}` : baseUrl;
-      setCalendlyUrl(urlWithUtm);
-    };
-
-    updateCalendlyUrl();
-    window.addEventListener('resize', updateCalendlyUrl);
-
-    return () => window.removeEventListener('resize', updateCalendlyUrl);
-  }, []);
+  const calendlyUrl = 'https://www.linkedin.com/events/7414274913672482816?viewAsMember=true';
 
   const scrollToSection = (sectionId: string) => {
     // Update URL hash without triggering scroll
@@ -119,7 +86,7 @@ function Header() {
           {/* Actions */}
           <div className="flex items-center space-x-2 md:space-x-4">
             <a href={calendlyUrl} target="_blank" rel="noopener noreferrer" className="hidden md:inline-block bg-black hover:bg-gray-800 text-white px-3 md:px-6 py-2 rounded-lg font-medium text-xs md:text-base transition-colors">
-              Register for free
+              [LIVE] Join now
             </a>
 
             {/* Mobile menu button */}
