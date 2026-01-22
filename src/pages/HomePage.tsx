@@ -336,7 +336,67 @@ function HomePage() {
         .ai-pro-highlight.animate-highlight::after {
           transform: scaleX(1);
         }
+
+        @keyframes live-pulse {
+          0%, 100% {
+            transform: scale(1);
+            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+          }
+          50% {
+            transform: scale(1.05);
+            box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+          }
+        }
+
+        .live-button {
+          animation: live-pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes gradient-shift {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+
+        .live-gradient {
+          background-size: 200% 200%;
+          animation: gradient-shift 3s ease infinite;
+        }
       `}</style>
+
+      {/* LIVE Conference Banner */}
+      <section className="py-12 lg:py-16 live-gradient bg-gradient-to-r from-red-600 via-orange-500 to-yellow-500 relative overflow-hidden">
+        <div className="absolute inset-0 bg-black/10"></div>
+        <div className="absolute inset-0 opacity-30">
+          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent animate-pulse"></div>
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center">
+            <div className="inline-block mb-6">
+              <span className="inline-block bg-white/30 backdrop-blur-md text-white px-8 py-3 rounded-full font-bold text-base md:text-lg uppercase tracking-wider animate-pulse shadow-lg border-2 border-white/50">
+                🔴 LIVE
+              </span>
+            </div>
+            <h2 className="hero-title text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-8 drop-shadow-2xl">
+              [LIVE] Conference is live now!
+            </h2>
+            <a
+              href="https://www.linkedin.com/events/7414274913672482816?viewAsMember=true"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="live-button inline-block bg-white text-orange-600 px-10 py-5 md:px-16 md:py-6 rounded-2xl font-bold text-xl md:text-2xl transition-all shadow-2xl hover:shadow-3xl hover:scale-110 transform border-4 border-white/50"
+            >
+              Join →
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Hero Section */}
       <section className="py-8 lg:py-24 bg-gradient-to-br from-purple-50 via-cyan-50 to-blue-50 relative overflow-hidden">
