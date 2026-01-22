@@ -13,7 +13,7 @@ function Header() {
 
   const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const calendlyUrl = 'https://www.linkedin.com/events/7414274913672482816?viewAsMember=true';
+  const calendlyUrl = 'https://us06web.zoom.us/j/3525170343?pwd=TDHUHddjFGvdPosaoaIwqdazfOeaS5.1';
 
   const scrollToSection = (sectionId: string) => {
     // Update URL hash without triggering scroll
