@@ -39,7 +39,7 @@ function HomePage() {
   const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>) => {
     e.currentTarget.src = PLACEHOLDER_IMG;
   };
-  const [calendlyUrl, setCalendlyUrl] = useState('https://calendly.com/maxpog/ai/');
+  const [calendlyUrl] = useState('https://www.linkedin.com/events/7414274913672482816?viewAsMember=true');
 
   useEffect(() => {
     const getPartnerParam = () => {
@@ -70,21 +70,6 @@ function HomePage() {
         setShowPartnerPopup(false);
       }
     }
-
-    const updateCalendlyUrl = () => {
-      const baseUrl = window.innerWidth > 650
-        ? 'https://calendly.com/maxpog/ai/2026-01-22T16:00:00+00:00?month=2026-01&date=2026-01-22'
-        : 'https://calendly.com/maxpog/ai/';
-
-      // Always use partner ID for UTM, even if popup doesn't show
-      const urlWithUtm = partnerParam ? `${baseUrl}${baseUrl.includes('?') ? '&' : '?'}utm_source=${partnerParam}` : baseUrl;
-      setCalendlyUrl(urlWithUtm);
-    };
-
-    updateCalendlyUrl();
-    window.addEventListener('resize', updateCalendlyUrl);
-
-    return () => window.removeEventListener('resize', updateCalendlyUrl);
   }, []);
 
   useEffect(() => {
@@ -402,7 +387,7 @@ function HomePage() {
 
               <div className="pt-4 relative inline-block">
                 <a href={calendlyUrl} target="_blank" rel="noopener noreferrer" className="levitate-button bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 hover:from-purple-700 hover:via-pink-600 hover:to-purple-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all inline-block shadow-lg hover:shadow-xl hover:scale-105">
-                  Secure your spot
+                  [LIVE] Join now
                 </a>
                 <span className="absolute -top-3 -right-4 bg-gradient-to-r from-green-400 to-emerald-500 text-white px-6 py-2 rounded-full font-bold text-base shadow-lg transform rotate-12 z-10">
                   For free
@@ -618,7 +603,7 @@ function HomePage() {
                 rel="noopener noreferrer"
                 className="inline-block bg-black text-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-gray-900 transition-colors"
               >
-                Register Now
+                [LIVE] Join now
               </a>
             </div>
           </div>
@@ -2014,7 +1999,7 @@ function HomePage() {
                 rel="noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-12 py-5 rounded-xl font-bold text-xl transition-all shadow-lg hover:shadow-xl hover:scale-105"
               >
-                Register Now
+                [LIVE] Join now
               </a>
               <span className="absolute -top-3 -right-4 bg-gradient-to-r from-green-400 to-emerald-500 text-white px-4 py-1.5 rounded-full font-bold text-sm shadow-lg transform rotate-12 z-10">
                 FREE
@@ -2553,7 +2538,7 @@ function HomePage() {
                           rel="noopener noreferrer"
                           className="inline-block bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-12 py-5 rounded-xl font-bold text-xl transition-all shadow-lg hover:shadow-xl hover:scale-105"
                         >
-                          Register Now
+                          [LIVE] Join now
                         </a>
                         <span className="absolute -top-3 -right-4 bg-gradient-to-r from-green-400 to-emerald-500 text-white px-4 py-1.5 rounded-full font-bold text-sm shadow-lg transform rotate-12 z-10">
                           FREE
