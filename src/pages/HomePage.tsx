@@ -39,7 +39,7 @@ function HomePage() {
   const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>) => {
     e.currentTarget.src = PLACEHOLDER_IMG;
   };
-  const [calendlyUrl] = useState('https://www.linkedin.com/events/7414274913672482816?viewAsMember=true');
+  const [calendlyUrl] = useState('https://us06web.zoom.us/j/3525170343?pwd=TDHUHddjFGvdPosaoaIwqdazfOeaS5.1');
 
   useEffect(() => {
     const getPartnerParam = () => {
@@ -387,7 +387,7 @@ function HomePage() {
               [LIVE] Conference is live now!
             </h2>
             <a
-              href="https://www.linkedin.com/events/7414274913672482816?viewAsMember=true"
+              href="https://us06web.zoom.us/j/3525170343?pwd=TDHUHddjFGvdPosaoaIwqdazfOeaS5.1"
               target="_blank"
               rel="noopener noreferrer"
               className="live-button inline-block bg-white text-orange-600 px-10 py-5 md:px-16 md:py-6 rounded-2xl font-bold text-xl md:text-2xl transition-all shadow-2xl hover:shadow-3xl hover:scale-110 transform border-4 border-white/50"
